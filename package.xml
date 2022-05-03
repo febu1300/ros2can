@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>ros2can</name>
-  <version>0.0.0</version>
+  <version>0.0.1</version>
   <description>The ros2can package</description>
   <maintainer email="buruk@todo.todo">buruk</maintainer>
   <license>TODO</license>
