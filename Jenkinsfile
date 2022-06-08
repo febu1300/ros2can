@@ -1,27 +1,7 @@
 pipeline {
     agent none
     stages {
-        stage("cmake flow build") {
-            agent { dockerfile true }
-            stages {
-                stage('build') {
-                    steps {
-                        sh '''
-                            mkdir build && cd build
-                            cmake ..
-                            cmake --build .
-                            cmake --install . --prefix ../install
-                            make doc
-                        '''
-                    }
-                }
-            }
-            post {
-                always {
-                    deleteDir()
-                }
-            }
-        }
+
         stage("ros2 flow build and test") {
             agent { dockerfile { filename 'Dockerfile.ROS2' } }
             stages {
