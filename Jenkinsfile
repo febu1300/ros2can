@@ -29,8 +29,9 @@ pipeline {
                     steps {
                         sh '''
                             source /opt/ros/foxy/setup.bash
-                            colcon build --symlink-install --cmake-args "-DUSE_AMENT=ON"
-                            colcon build --symlink-install --cmake-args "-DUSE_AMENT=ON" --cmake-target doc
+                            colcon build
+                       //     colcon build --symlink-install --cmake-args "-DUSE_AMENT=ON"
+                       //     colcon build --symlink-install --cmake-args "-DUSE_AMENT=ON" --cmake-target doc
                         '''
                     }
                 }
