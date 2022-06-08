@@ -6,4 +6,5 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt update
 RUN apt install -q -y curl gnupg2 lsb-release build-essential cmake
-RUN apt install -q -y libeigen3-dev
+RUN apt install -q -y libpopt-dev libboost-system-dev      
+
