@@ -7,8 +7,6 @@ pipeline {
                 stage('build') {
                     steps {
                         sh '''
-	         	    colcon build 
-                            . install/setup.bash                     
                             mkdir build && cd build
                             cmake ..
                             cmake --build .
