@@ -7,7 +7,6 @@ pipeline {
                 stage('build') {
                     steps {
                         sh '''
-                            source /opt/ros/foxy/setup.bash
 	         	    colcon build 
                             . install/setup.bash                     
                             mkdir build && cd build
