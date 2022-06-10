@@ -36,4 +36,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 #COPY ./ros_entrypoint.sh /
 
 #ENTRYPOINT ["/ros_entrypoint.sh"]
-#CMD ["bash"]
+CMD ["bash"]
+RUN set -e
+RUN source "/opt/ros/$ROS_DISTRO/setup.bash"
+RUN exec "$@"
+
