@@ -32,10 +32,65 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-foxy-ros-core=0.9.2-1* \
     && rm -rf /var/lib/apt/lists/*
 
+# install bootstrap tools
+RUN apt-get update && apt-get install --no-install-recommends -y \
+    build-essential \
+    git \
+    python3-colcon-common-extensions \
+    python3-colcon-mixin \
+    python3-rosdep \
+    python3-vcstool \
+    && rm -rf /var/lib/apt/lists/*
+
+# install python packages
+RUN pip3 install -U \
+    argcomplete \
+    flake8 \
+    flake8-blind-except \
+    flake8-builtins \
+    flake8-class-newline \
+    flake8-comprehensions \
+    flake8-deprecated \
+    flake8-docstrings \
+    flake8-import-order \
+    flake8-quotes \
+    pytest-repeat \
+    pytest-rerunfailures
+# This is a workaround for pytest not found causing builds to fail
+# Following RUN statements tests for regression of https://github.com/ros2/ros2/issues/722
+RUN pip3 freeze | grep pytest \
+    && python3 -m pytest --version
+
+# bootstrap rosdep
+RUN rosdep init \
+    && rosdep update
+
+# setup colcon mixin and metadata
+RUN colcon mixin add default \
+      https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml && \
+    colcon mixin update && \
+    colcon metadata add default \
+      https://raw.githubusercontent.com/colcon/colcon-metadata-repository/master/index.yaml && \
+    colcon metadata update
+
+# clone source
+ENV ROS2_WS /opt/ros2_ws
+RUN mkdir -p $ROS2_WS/src
+WORKDIR $ROS2_WS
+
+# build source
+RUN colcon \
+    build \
+    --cmake-args \
+      -DSECURITY=ON --no-warn-unused-cli \
+    --symlink-install
+
+# setup bashrc
+RUN cp /etc/skel/.bashrc ~/
+
 # setup entrypoint
 COPY ./ros_entrypoint.sh /
 
-
-ENTRYPOINT ["sh","/ros_entrypoint.sh"]
-
+ENTRYPOINT ["/ros_entrypoint.sh"]
+CMD ["bash"]
 
