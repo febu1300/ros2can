@@ -9,6 +9,7 @@ pipeline {
                         sh '''
 			     printenv | grep ROS*
 			     cd $ROS2_WS
+			     colcon build
 #                            source /opt/ros/foxy/setup.sh
  #                           colcon build --symlink-install
    #                         colcon build --symlink-install 
