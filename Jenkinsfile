@@ -7,10 +7,10 @@ pipeline {
                 stage('build') {
                     steps {
                         sh '''
-                            source /opt/ros/foxy/setup.sh
+#                            source /opt/ros/foxy/setup.sh
                             colcon build --symlink-install
                             colcon build --symlink-install 
-         #                   source /opt/ros/foxy/setup.sh
+                            source /opt/ros/foxy/setup.sh
 	 
                        '''
                     }
