@@ -7,11 +7,9 @@ pipeline {
                 stage('build') {
                     steps {
                         sh '''
-			     printenv | grep ROS*
-			     cd $ROS2_WS
-			     ls
-#                            source /opt/ros/foxy/setup.sh
- #                           colcon build --symlink-install
+
+                             . $ROS2_WS/install/setup.sh
+                             colcon build --symlink-install
    #                         colcon build --symlink-install 
 #                            source /opt/ros/foxy/setup.sh
 	 
