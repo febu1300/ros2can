@@ -2,5 +2,5 @@
 set -e
 
 # setup ros2 environment
-source "/opt/ros/$ROS_DISTRO/setup.sh"
+#source "/opt/ros/$ROS_DISTRO/setup.sh"
 exec "$@"
