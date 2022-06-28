@@ -9,8 +9,8 @@ pipeline {
                         sh '''
                              cd $ROS2_WS
                              . $ROS2_WS/install/setup.sh
-                             colcon build --symlink-install
-   #                         colcon build --symlink-install 
+                             colcon build 
+
 #                            source /opt/ros/foxy/setup.sh
 	 
                        '''
