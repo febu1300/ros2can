@@ -6,12 +6,12 @@ pipeline {
             stages {
                 stage('build') {
                     steps {
-                        sh '''
+                        bash '''
                              cd $ROS2_WS
-                             . $ROS2_WS/install/setup.sh
+                             . $ROS2_WS/install/setup.bash
                              colcon build 
 
-#                            source /opt/ros/foxy/setup.sh
+#                            source /opt/ros/foxy/setup.bash
 	 
                        '''
                     }
