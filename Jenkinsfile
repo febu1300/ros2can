@@ -7,7 +7,7 @@ pipeline {
                 stage('build') {
                     steps {
                         sh '''
-                             whoami
+                         
                              #sudo chmod -R 777 $ROS2_WS 
                              cd $ROS2_WS
                              . $ROS2_WS/install/setup.sh
