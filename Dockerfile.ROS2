@@ -2,7 +2,7 @@
 # generated from docker_images_ros2/create_ros_core_image.Dockerfile.em
 FROM ubuntu:focal
 USER root
-RUN echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
 # setup timezone
 RUN echo 'Etc/UTC' > /etc/timezone && \
     ln -s /usr/share/zoneinfo/Etc/UTC /etc/localtime && \
@@ -81,6 +81,7 @@ RUN mkdir -p $ROS2_WS/src
 WORKDIR $ROS2_WS
 RUN chmod -R 777 $ROS2_WS
 # build source
+RUN echo "jenkins ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 RUN colcon \
     build \
     --cmake-args \
