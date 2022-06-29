@@ -1,6 +1,10 @@
 pipeline {
 
-            agent { dockerfile { filename 'Dockerfile.ROS2' } }
+            agent {
+            
+            	 dockerfile { filename 'Dockerfile.ROS2' } 
+                 
+                 }
             stages {
                  stage('Build') {
 			steps {
@@ -8,7 +12,7 @@ pipeline {
          				 sh '''
             				# . /opt/ros/foxy/setup.sh
           				 # colcon build 
-          				echo $ROS_WORKSPACE
+          				echo $ROS2_WS
           				'''
         				
         
