@@ -8,15 +8,7 @@ pipeline {
                  
             stages {
             
-                stage("Fix the permission issue") {
-
-           		 agent any
-
-            		steps {
-                		sh "chown root:jenkins /run/docker.sock"
-           		 }
-
-        	}
+        
         
 
                  stage('Build') {
@@ -24,7 +16,7 @@ pipeline {
 			steps {
         			
          				 sh '''
-         				 
+         				# args '-u root:sudo -v $HOME/workspace/myproject:/myproject'
             				# . /opt/ros/foxy/setup.sh
           				 # colcon build 
           				echo $ROS2_WS
