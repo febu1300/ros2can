@@ -4,13 +4,13 @@ pipeline {
             stages {
                  stage('Build') {
 			steps {
-        			#dir(path: "${ROS_WORKSPACE}") {
+        			
          				 sh '''
-            				#. /opt/ros/foxy/setup.sh
+            				# . /opt/ros/foxy/setup.sh
           				 # colcon build 
           				echo $ROS_WORKSPACE
           				'''
-        				#}
+        				
         
       				}
     			}
