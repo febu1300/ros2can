@@ -1,6 +1,10 @@
 pipeline {
 
-          agent any
+             agent {
+            
+            	 dockerfile { filename 'Dockerfile.ROS2' } 
+                 
+                   }
                  
             stages {
             
@@ -16,6 +20,7 @@ pipeline {
         
 
                  stage('Build') {
+                   
 			steps {
         			
          				 sh '''
@@ -29,11 +34,7 @@ pipeline {
       				}
     			}
                 stage('Test') {
-                 agent {
-            
-            	 dockerfile { filename 'Dockerfile.ROS2' } 
-                 
-                   }
+          
                     steps {
                         sh '''
                            
