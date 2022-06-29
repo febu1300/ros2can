@@ -3,7 +3,7 @@ pipeline {
              agent {
             
             	 dockerfile { filename 'Dockerfile.ROS2' } 
-                 
+                 args '-u root:sudo -v $ROS2_WS:/$ROS2_WS/src/ros2pcan'
                    }
                  
             stages {
@@ -16,10 +16,10 @@ pipeline {
 			steps {
         			
          				 sh '''
-         				# args '-u root:sudo -v $HOME/workspace/myproject:/myproject'
+         				# args '-u root:sudo -v $ROS2_WS:/$ROS2_WS/src/ros2pcan'
             				# . /opt/ros/foxy/setup.sh
           				 # colcon build 
-          				echo $ROS2_WS
+          				ls $ROS2_WS/src
           				'''
         				
         
