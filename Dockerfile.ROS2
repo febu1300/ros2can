@@ -44,8 +44,9 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     python3-colcon-mixin \
     python3-rosdep \
     python3-vcstool \
+    libboost-dev\
     && rm -rf /var/lib/apt/lists/*
-RUN apt install libboost-dev
+
 # install python packages
 RUN pip3 install -U \
     argcomplete \
