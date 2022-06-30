@@ -20,9 +20,9 @@ pipeline {
             				 . /opt/ros/foxy/setup.sh
             				        . $ROS2_WS/install/setup.sh
             				
-            				ll $ROS2_WS
+            				
           				colcon build 
-          				pwd
+          				
           				'''
         				
         
