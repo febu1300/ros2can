@@ -19,7 +19,8 @@ pipeline {
          				# args '-u root:sudo -v $ROS2_WS:/$ROS2_WS/src/ros2pcan'
             				 . /opt/ros/foxy/setup.sh
             				        . $ROS2_WS/install/setup.sh
-            				cd $ROS2_WS
+            				
+            				ll $ROS2_WS
           				colcon build 
           				pwd
           				'''
