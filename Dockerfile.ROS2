@@ -92,10 +92,10 @@ RUN colcon \
 RUN cp /etc/skel/.bashrc ~/
 
 # setup entrypoint
-COPY ./ros_entrypoint.sh /
+#COPY ./ros_entrypoint.sh /
 
-RUN bash -c "chmod +x /ros_entrypoint.sh"
+#RUN bash -c "chmod +x /ros_entrypoint.sh"
 
-ENTRYPOINT ["/ros_entrypoint.sh"]
-CMD ["bash"]
+#ENTRYPOINT ["/ros_entrypoint.sh"]
+#CMD ["bash"]
 
