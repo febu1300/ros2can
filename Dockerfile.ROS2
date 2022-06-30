@@ -1,7 +1,9 @@
 # This is an auto generated Dockerfile for ros:ros-core
 # generated from docker_images_ros2/create_ros_core_image.Dockerfile.em
 FROM ubuntu:focal
-USER jenkins
+USER root
+RUN useradd jenkins
+RUN usermod -aG sudo jenkins
 
 # setup timezone
 RUN echo 'Etc/UTC' > /etc/timezone && \
