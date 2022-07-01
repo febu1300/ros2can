@@ -4,13 +4,8 @@ FROM ubuntu:focal
 USER root
 RUN useradd jenkins
 RUN usermod -aG sudo jenkins
-#Install PCAN
-RUN wget https://www.peak-system.com/fileadmin/media/linux/files/peak-linux-driver-8.13.0.tar.gz\ 
-    && tar -xzf peak-linux-driver-8.13.0.tar.gz\
-    && cd peak-linux-driver-8.13.0
-RUN make clean
-RUN make 
-RUN make install
+
+
 
 # setup timezone
 RUN echo 'Etc/UTC' > /etc/timezone && \
@@ -23,7 +18,16 @@ RUN echo 'Etc/UTC' > /etc/timezone && \
 RUN apt-get update && apt-get install -q -y --no-install-recommends \
     dirmngr \
     gnupg2 \
+    wget \
     && rm -rf /var/lib/apt/lists/*
+#Install PCAN
+RUN wget https://www.peak-system.com/fileadmin/media/linux/files/peak-linux-driver-8.13.0.tar.gz\ 
+    && tar -xzf peak-linux-driver-8.13.0.tar.gz\
+    && cd peak-linux-driver-8.13.0
+RUN make clean
+RUN make 
+RUN make install
+
 
 # setup sources.list
 RUN echo "deb http://packages.ros.org/ros2/ubuntu focal main" > /etc/apt/sources.list.d/ros2-latest.list
