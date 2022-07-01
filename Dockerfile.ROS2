@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -q -y --no-install-recommends \
     gnupg2 \
     wget \
     make \
+    install linux-headers \
     && rm -rf /var/lib/apt/lists/*
 #Install PCAN
 RUN wget --no-check-certificate https://www.peak-system.com/fileadmin/media/linux/files/peak-linux-driver-8.13.0.tar.gz
