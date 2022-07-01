@@ -22,14 +22,17 @@ RUN apt-get update && apt-get install -q -y --no-install-recommends \
     make \
 
     && rm -rf /var/lib/apt/lists/*
-RUN sudo apt-get install linux-headers-$(uname -r) -y
+RUN apt-get install linux-headers-$(uname -r) -y
 #Install PCAN
 RUN wget --no-check-certificate https://www.peak-system.com/fileadmin/media/linux/files/peak-linux-driver-8.13.0.tar.gz
 RUN tar -xzf peak-linux-driver-8.13.0.tar.gz
 WORKDIR  peak-linux-driver-8.13.0 
-RUN make clean
-RUN make 
-RUN make install
+make
+mkdir -p deploy
+make DESTDIR=${WORKDIR}/deploy install
+
+
+
 
 
 # setup sources.list
