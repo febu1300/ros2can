@@ -27,7 +27,7 @@ RUN apt-get update && apt-get install -q -y --no-install-recommends \
 RUN wget --no-check-certificate https://www.peak-system.com/fileadmin/media/linux/files/peak-linux-driver-8.13.0.tar.gz
 RUN tar -xzf peak-linux-driver-8.13.0.tar.gz
 WORKDIR  peak-linux-driver-8.13.0 
-RUN make
+
 RUN mkdir -p deploy
 RUN make DESTDIR=${WORKDIR}/deploy install
 
