@@ -1,4 +1,4 @@
-## ros2can (noetic) - 0.0.1-1
+## ros2can (foxy) - 0.0.1-1
 
 The packages in the `ros2can` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic ros2can` on `Tue, 03 May 2022 09:37:05 -0000`
 
