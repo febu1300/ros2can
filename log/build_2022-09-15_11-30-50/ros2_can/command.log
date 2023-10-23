@@ -1,6 +1,0 @@
-Invoking command in '/home/adm_bur7746m/ros2can/build/ros2_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/adm_bur7746m/ros2can -DCMAKE_INSTALL_PREFIX=/home/adm_bur7746m/ros2can/install/ros2_can
-Invoked command in '/home/adm_bur7746m/ros2can/build/ros2_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/adm_bur7746m/ros2can -DCMAKE_INSTALL_PREFIX=/home/adm_bur7746m/ros2can/install/ros2_can
-Invoking command in '/home/adm_bur7746m/ros2can/build/ros2_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/adm_bur7746m/ros2can/build/ros2_can -- -j8 -l8
-Invoked command in '/home/adm_bur7746m/ros2can/build/ros2_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/adm_bur7746m/ros2can/build/ros2_can -- -j8 -l8
-Invoking command in '/home/adm_bur7746m/ros2can/build/ros2_can': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/adm_bur7746m/ros2can/build/ros2_can
-Invoked command in '/home/adm_bur7746m/ros2can/build/ros2_can' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/adm_bur7746m/ros2can/build/ros2_can

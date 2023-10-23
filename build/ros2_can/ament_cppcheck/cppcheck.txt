@@ -1,8 +1,0 @@
--- run_test.py: invoking following command in '/home/adm_bur7746m/ros2can':
- - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/cppcheck.xunit.xml
-
-No problems found
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/cppcheck.xunit.xml'
