@@ -28,6 +28,7 @@ find_package(rclcpp REQUIRED)
 #add_executable(ros2pcan src/ros2pcan.cpp)
 add_executable(teleop2pcan src/teleop2pcan.cpp)
 
+include_directories(${MyProject_SOURCE_DIR}/include)
 #TARGET_LINK_LIBRARIES(ros2pcan dl -lboost_system  -DNO_RT -lpcanbasic )# -pthread  -lcrypt -lm -lpthread)
 TARGET_LINK_LIBRARIES(teleop2pcan dl -lboost_system -DNO_RT -lpcanbasic )# -pthread  -lcrypt -lm -lpthread)
 #TARGET_LINK_LIBRARIES(teleop2pcan dl -lboost_system  -DNO_RT -lpcanbasic)
