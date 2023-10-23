@@ -28,7 +28,7 @@ RUN wget --no-check-certificate https://www.peak-system.com/fileadmin/media/linu
 RUN tar -xzf peak-linux-driver-8.16.0.tar.gz
 WORKDIR  peak-linux-driver-8.16.0/peak-linux-driver-8.16.0 
 
-RUN make make NET=NO PCC=NO
+RUN make NET=NO PCC=NO
 
 
 
