@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -q -y --no-install-recommends \
 #Install PCAN
 RUN wget --no-check-certificate https://www.peak-system.com/fileadmin/media/linux/files/peak-linux-driver-8.16.0.tar.gz
 RUN tar -xzf peak-linux-driver-8.16.0.tar.gz
-WORKDIR  peak-linux-driver-8.16.0/peak-linux-driver-8.16.0 
+WORKDIR  peak-linux-driver-8.16.0
 
 RUN make NET=NO PCC=NO
 
