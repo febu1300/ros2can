@@ -1,11 +1,8 @@
 pipeline {
 
              agent none
-# {
             
-#            	 dockerfile { filename 'Dockerfile.ROS2' } 
 
-  #                 }
                  
             stages {
             
