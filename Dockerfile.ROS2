@@ -30,7 +30,7 @@ RUN apt-get update && apt-get install -q -y --no-install-recommends \
 
 #RUN make NET=NO PCC=NO
 
-RUN  modprobe peak-usb
+RUN  modprobe peak_usb
 RUN ip link set can0 up type can bitrate 250000
 RUN ip link set up can0
 
