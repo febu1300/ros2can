@@ -1,0 +1,1033 @@
+[0.000000] (-) TimerEvent: {}
+[0.000586] (ros2_can) JobQueued: {'identifier': 'ros2_can', 'dependencies': OrderedDict([('ros2_can', '/home/adm_bur7746m/ros2can/install/ros2_can')])}
+[0.000652] (ros2_can) JobStarted: {'identifier': 'ros2_can'}
+[0.099092] (-) TimerEvent: {}
+[0.143620] (ros2_can) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/adm_bur7746m/ros2can/build/ros2_can', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'adm_bur7746m'), ('SSH_AGENT_PID', '2446'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/adm_bur7746m'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2252'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adm_bur7746m'), ('JOURNAL_STREAM', '8:50536'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'adm_bur7746m'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/adm_bur7746m/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/FMA-PC-KC07lx:@/tmp/.ICE-unix/2484,unix/FMA-PC-KC07lx:/tmp/.ICE-unix/2484'), ('INVOCATION_ID', '296842e338104cdc81e11022e22a91c3'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2fa5159e_ad7a_4839_9e2f_5aea9d03b56c'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'de_DE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '62'), ('AMENT_PREFIX_PATH', '/home/adm_bur7746m/ros2can/install/ros2_can:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/adm_bur7746m/ros2can/build/ros2_can'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/adm_bur7746m/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/adm_bur7746m/ros2can/install/ros2_can')]), 'shell': False}
+[0.158691] (ros2_can) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/adm_bur7746m/ros2can/build/ros2_can/CTestConfiguration.ini\n'}
+[0.159110] (ros2_can) StdoutLine: {'line': b'Parse Config file:/home/adm_bur7746m/ros2can/build/ros2_can/CTestConfiguration.ini\n'}
+[0.159361] (ros2_can) StdoutLine: {'line': b'   Site: FMA-PC-KC07lx\n'}
+[0.159471] (ros2_can) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.159573] (ros2_can) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.159889] (ros2_can) StdoutLine: {'line': b'SetCTestConfiguration:CMakeCommand:/usr/bin/cmake\n'}
+[0.160005] (ros2_can) StdoutLine: {'line': b'Create new tag: 20220915-0931 - Experimental\n'}
+[0.160109] (ros2_can) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/adm_bur7746m/ros2can/build/ros2_can/CTestConfiguration.ini\n'}
+[0.160223] (ros2_can) StdoutLine: {'line': b'Parse Config file:/home/adm_bur7746m/ros2can/build/ros2_can/CTestConfiguration.ini\n'}
+[0.160329] (ros2_can) StdoutLine: {'line': b'Test project /home/adm_bur7746m/ros2can/build/ros2_can\n'}
+[0.160433] (ros2_can) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.160568] (ros2_can) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.160679] (ros2_can) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.160790] (ros2_can) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.160895] (ros2_can) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.160998] (ros2_can) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.161102] (ros2_can) StdoutLine: {'line': b'test 1\n'}
+[0.161205] (ros2_can) StdoutLine: {'line': b'    Start 1: copyright\n'}
+[0.161308] (ros2_can) StdoutLine: {'line': b'\n'}
+[0.161410] (ros2_can) StdoutLine: {'line': b'1: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/copyright.xunit.xml" "--package-name" "ros2_can" "--output-file" "/home/adm_bur7746m/ros2can/build/ros2_can/ament_copyright/copyright.txt" "--command" "/opt/ros/foxy/bin/ament_copyright" "--xunit-file" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/copyright.xunit.xml"\n'}
+[0.161526] (ros2_can) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.199191] (-) TimerEvent: {}
+[0.299561] (-) TimerEvent: {}
+[0.316983] (ros2_can) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/adm_bur7746m/ros2can':\n"}
+[0.317185] (ros2_can) StdoutLine: {'line': b'1:  - /opt/ros/foxy/bin/ament_copyright --xunit-file /home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/copyright.xunit.xml\n'}
+[0.399672] (-) TimerEvent: {}
+[0.499967] (-) TimerEvent: {}
+[0.600253] (-) TimerEvent: {}
+[0.628169] (ros2_can) StdoutLine: {'line': b'1: CONTRIBUTING.md: file not found\n'}
+[0.628597] (ros2_can) StdoutLine: {'line': b'1: LICENSE: file not found\n'}
+[0.628702] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/3.16.3/CMakeCCompiler.cmake: could not find copyright notice\n'}
+[0.628804] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake: could not find copyright notice\n'}
+[0.628903] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/3.16.3/CMakeSystem.cmake: could not find copyright notice\n'}
+[0.629000] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c: could not find copyright notice\n'}
+[0.629121] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp: could not find copyright notice\n'}
+[0.629227] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/CMakeDirectoryInformation.cmake: could not find copyright notice\n'}
+[0.629326] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/Makefile.cmake: could not find copyright notice\n'}
+[0.629423] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/DependInfo.cmake: could not find copyright notice\n'}
+[0.629521] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[0.629619] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake: could not find copyright notice\n'}
+[0.629715] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/teleop2pcan.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[0.629812] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/uninstall.dir/DependInfo.cmake: could not find copyright notice\n'}
+[0.629909] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CMakeFiles/uninstall.dir/cmake_clean.cmake: could not find copyright notice\n'}
+[0.630005] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CTestCustom.cmake: could not find copyright notice\n'}
+[0.630102] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/CTestTestfile.cmake: could not find copyright notice\n'}
+[0.630197] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/ament_cmake_core/package.cmake: could not find copyright notice\n'}
+[0.630294] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/ament_cmake_core/ros2_canConfig-version.cmake: could not find copyright notice\n'}
+[0.630391] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/ament_cmake_core/ros2_canConfig.cmake: could not find copyright notice\n'}
+[0.630488] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/ament_cmake_package_templates/templates.cmake: could not find copyright notice\n'}
+[0.630585] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake: could not find copyright notice\n'}
+[0.630697] (ros2_can) StdoutLine: {'line': b'1: build/ros2_can/cmake_install.cmake: could not find copyright notice\n'}
+[0.630795] (ros2_can) StdoutLine: {'line': b'1: install/_local_setup_util_ps1.py: copyright=Dirk Thomas (2016-2019), license=<unknown>\n'}
+[0.630892] (ros2_can) StdoutLine: {'line': b'1: install/_local_setup_util_sh.py: copyright=Dirk Thomas (2016-2019), license=<unknown>\n'}
+[0.630989] (ros2_can) StdoutLine: {'line': b'1: install/ros2_can/share/ros2_can/cmake/ros2_canConfig-version.cmake: could not find copyright notice\n'}
+[0.631085] (ros2_can) StdoutLine: {'line': b'1: install/ros2_can/share/ros2_can/cmake/ros2_canConfig.cmake: could not find copyright notice\n'}
+[0.631182] (ros2_can) StdoutLine: {'line': b'1: src/foxypcan.h: could not find copyright notice\n'}
+[0.631278] (ros2_can) StdoutLine: {'line': b'1: src/teleop2pcan.cpp: could not find copyright notice\n'}
+[0.631375] (ros2_can) StdoutLine: {'line': b'1: 29 errors, checked 29 files\n'}
+[0.640599] (ros2_can) StdoutLine: {'line': b'1: -- run_test.py: return code 1\n'}
+[0.640996] (ros2_can) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/copyright.xunit.xml'\n"}
+[0.652332] (ros2_can) StdoutLine: {'line': b'1/6 Test #1: copyright ........................***Failed    0.49 sec\n'}
+[0.653002] (ros2_can) StdoutLine: {'line': b'test 2\n'}
+[0.653228] (ros2_can) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.653436] (ros2_can) StdoutLine: {'line': b'\n'}
+[0.653637] (ros2_can) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/cppcheck.xunit.xml" "--package-name" "ros2_can" "--output-file" "/home/adm_bur7746m/ros2can/build/ros2_can/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/foxy/bin/ament_cppcheck" "--xunit-file" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/cppcheck.xunit.xml"\n'}
+[0.653867] (ros2_can) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.700356] (-) TimerEvent: {}
+[0.716499] (ros2_can) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/adm_bur7746m/ros2can':\n"}
+[0.716699] (ros2_can) StdoutLine: {'line': b'2:  - /opt/ros/foxy/bin/ament_cppcheck --xunit-file /home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/cppcheck.xunit.xml\n'}
+[0.800481] (-) TimerEvent: {}
+[0.900783] (-) TimerEvent: {}
+[1.001114] (-) TimerEvent: {}
+[1.101570] (-) TimerEvent: {}
+[1.202043] (-) TimerEvent: {}
+[1.300977] (ros2_can) StdoutLine: {'line': b'2: No problems found\n'}
+[1.302130] (-) TimerEvent: {}
+[1.323403] (ros2_can) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[1.323894] (ros2_can) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/cppcheck.xunit.xml'\n"}
+[1.335998] (ros2_can) StdoutLine: {'line': b'2/6 Test #2: cppcheck .........................   Passed    0.68 sec\n'}
+[1.336540] (ros2_can) StdoutLine: {'line': b'test 3\n'}
+[1.336749] (ros2_can) StdoutLine: {'line': b'    Start 3: cpplint\n'}
+[1.336941] (ros2_can) StdoutLine: {'line': b'\n'}
+[1.337131] (ros2_can) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/cpplint.xunit.xml" "--package-name" "ros2_can" "--output-file" "/home/adm_bur7746m/ros2can/build/ros2_can/ament_cpplint/cpplint.txt" "--command" "/opt/ros/foxy/bin/ament_cpplint" "--xunit-file" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/cpplint.xunit.xml"\n'}
+[1.337323] (ros2_can) StdoutLine: {'line': b'3: Test timeout computed to be: 120\n'}
+[1.399622] (ros2_can) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/adm_bur7746m/ros2can':\n"}
+[1.399827] (ros2_can) StdoutLine: {'line': b'3:  - /opt/ros/foxy/bin/ament_cpplint --xunit-file /home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/cpplint.xunit.xml\n'}
+[1.402250] (-) TimerEvent: {}
+[1.502586] (-) TimerEvent: {}
+[1.602872] (-) TimerEvent: {}
+[1.703235] (-) TimerEvent: {}
+[1.803644] (-) TimerEvent: {}
+[1.903898] (-) TimerEvent: {}
+[1.954319] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[1.954982] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:270:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[1.955092] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:286:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[1.955195] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:569:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.955305] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:580:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.955403] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:587:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.955499] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:588:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.955615] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:589:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.955724] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:596:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.955818] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c:607:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.955913] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[1.956008] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:268:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[1.956103] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:284:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[1.956196] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:554:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.956300] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:565:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.956407] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:572:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.956534] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:573:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.956631] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:574:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.956725] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:581:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.956818] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp:592:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.956912] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[1.957006] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:0:  No #ifndef header guard found, suggested CPP variable is: FOXYPCAN_H_  [build/header_guard] [5]\n'}
+[1.957110] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:8:  "chrono" already included at /home/adm_bur7746m/ros2can/src/foxypcan.h:1  [build/include] [4]\n'}
+[1.957231] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:9:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[1.957325] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:10:  Found C system header after C++ system header. Should be: foxypcan.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[1.957419] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:11:  Found C system header after C++ system header. Should be: foxypcan.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[1.957513] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:12:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[1.957606] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:13:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[1.957706] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:14:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[1.957799] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:16:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[1.957891] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:20:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[1.957984] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:21:  Should have a space between // and comment  [whitespace/comments] [4]\n'}
+[1.958077] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:22:  Found C system header after other header. Should be: foxypcan.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[1.958170] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:23:  Found C system header after other header. Should be: foxypcan.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[1.958268] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:24:  Found C system header after other header. Should be: foxypcan.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[1.958362] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:25:  Found C system header after other header. Should be: foxypcan.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[1.958455] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:26:  Found C system header after other header. Should be: foxypcan.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[1.958549] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:27:  Found C system header after other header. Should be: foxypcan.h, c system, c++ system, other.  [build/include_order] [4]\n'}
+[1.958643] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:35:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.958736] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/foxypcan.h:38:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.958829] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:0:  No copyright message found.  You should have a line: "Copyright [year] <Copyright Owner>"  [legal/copyright] [5]\n'}
+[1.958922] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:1:  Include the directory when naming .h files  [build/include] [4]\n'}
+[1.959025] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:18:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[1.959118] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:18:  Do not leave a blank line after "private:"  [whitespace/blank_line] [3]\n'}
+[1.959212] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:19:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[1.959305] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:22:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.959397] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:22:  Missing spaces around =  [whitespace/operators] [4]\n'}
+[1.959490] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:23:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.959582] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:23:  Missing spaces around =  [whitespace/operators] [4]\n'}
+[1.959675] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:25:  Missing spaces around =  [whitespace/operators] [4]\n'}
+[1.959767] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:27:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[1.959866] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:29:  Missing spaces around =  [whitespace/operators] [4]\n'}
+[1.959958] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:31:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[1.960051] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:32:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.960144] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:33:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.960236] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:34:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.960328] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:35:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.960449] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:36:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[1.961854] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:37:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.962437] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:37:  Missing spaces around =  [whitespace/operators] [4]\n'}
+[1.962683] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:38:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.962789] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:38:  Missing spaces around =  [whitespace/operators] [4]\n'}
+[1.962889] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:39:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.962989] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:39:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]\n'}
+[1.963102] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:40:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.963200] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:40:  Missing spaces around =  [whitespace/operators] [4]\n'}
+[1.963298] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:41:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.963395] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:41:  Missing spaces around =  [whitespace/operators] [4]\n'}
+[1.963492] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:42:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.963587] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:42:  Missing spaces around =  [whitespace/operators] [4]\n'}
+[1.963684] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:43:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.963780] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:43:  Missing spaces around =  [whitespace/operators] [4]\n'}
+[1.963876] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:44:  Tab found; better to use spaces  [whitespace/tab] [1]\n'}
+[1.963973] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:44:  Missing spaces around =  [whitespace/operators] [4]\n'}
+[1.964069] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:46:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[1.964176] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:47:  Lines should be <= 100 characters long  [whitespace/line_length] [2]\n'}
+[1.964273] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:47:  Missing space after ,  [whitespace/comma] [3]\n'}
+[1.964380] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:50:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[1.964501] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:50:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]\n'}
+[1.964604] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:60:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]\n'}
+[1.964700] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:60:  Redundant blank line at the end of a code block should be deleted.  [whitespace/blank_line] [3]\n'}
+[1.964795] (ros2_can) StdoutLine: {'line': b'3: /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp:57:  Add #include <memory> for make_shared<>  [build/include_what_you_use] [4]\n'}
+[1.964891] (ros2_can) StdoutLine: {'line': b"3: Category 'build/header_guard' errors found: 1\n"}
+[1.964986] (ros2_can) StdoutLine: {'line': b"3: Category 'build/include' errors found: 2\n"}
+[1.965081] (ros2_can) StdoutLine: {'line': b"3: Category 'build/include_order' errors found: 8\n"}
+[1.965176] (ros2_can) StdoutLine: {'line': b"3: Category 'build/include_what_you_use' errors found: 1\n"}
+[1.965271] (ros2_can) StdoutLine: {'line': b"3: Category 'legal/copyright' errors found: 4\n"}
+[1.965365] (ros2_can) StdoutLine: {'line': b"3: Category 'readability/casting' errors found: 1\n"}
+[1.965459] (ros2_can) StdoutLine: {'line': b"3: Category 'whitespace/blank_line' errors found: 3\n"}
+[1.965554] (ros2_can) StdoutLine: {'line': b"3: Category 'whitespace/comma' errors found: 15\n"}
+[1.965649] (ros2_can) StdoutLine: {'line': b"3: Category 'whitespace/comments' errors found: 7\n"}
+[1.965744] (ros2_can) StdoutLine: {'line': b"3: Category 'whitespace/end_of_line' errors found: 8\n"}
+[1.965839] (ros2_can) StdoutLine: {'line': b"3: Category 'whitespace/line_length' errors found: 5\n"}
+[1.965933] (ros2_can) StdoutLine: {'line': b"3: Category 'whitespace/operators' errors found: 11\n"}
+[1.966028] (ros2_can) StdoutLine: {'line': b"3: Category 'whitespace/tab' errors found: 16\n"}
+[1.966123] (ros2_can) StdoutLine: {'line': b'3: Total errors found: 82\n'}
+[1.966217] (ros2_can) StdoutLine: {'line': b"3: Not using '--root'\n"}
+[1.966312] (ros2_can) StdoutLine: {'line': b'3: \n'}
+[1.966406] (ros2_can) StdoutLine: {'line': b'3: Done processing /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c\n'}
+[1.966501] (ros2_can) StdoutLine: {'line': b'3: \n'}
+[1.966595] (ros2_can) StdoutLine: {'line': b'3: Done processing /home/adm_bur7746m/ros2can/build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp\n'}
+[1.966690] (ros2_can) StdoutLine: {'line': b'3: \n'}
+[1.966784] (ros2_can) StdoutLine: {'line': b"3: Using '--root=/home/adm_bur7746m/ros2can/src' argument\n"}
+[1.966878] (ros2_can) StdoutLine: {'line': b'3: \n'}
+[1.966972] (ros2_can) StdoutLine: {'line': b'3: Done processing /home/adm_bur7746m/ros2can/src/foxypcan.h\n'}
+[1.967068] (ros2_can) StdoutLine: {'line': b'3: \n'}
+[1.967162] (ros2_can) StdoutLine: {'line': b'3: Done processing /home/adm_bur7746m/ros2can/src/teleop2pcan.cpp\n'}
+[1.967257] (ros2_can) StdoutLine: {'line': b'3: \n'}
+[1.973498] (ros2_can) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[1.973935] (ros2_can) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/cpplint.xunit.xml'\n"}
+[1.985948] (ros2_can) StdoutLine: {'line': b'3/6 Test #3: cpplint ..........................***Failed    0.65 sec\n'}
+[1.986509] (ros2_can) StdoutLine: {'line': b'test 4\n'}
+[1.986757] (ros2_can) StdoutLine: {'line': b'    Start 4: lint_cmake\n'}
+[1.986975] (ros2_can) StdoutLine: {'line': b'\n'}
+[1.987175] (ros2_can) StdoutLine: {'line': b'4: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/lint_cmake.xunit.xml" "--package-name" "ros2_can" "--output-file" "/home/adm_bur7746m/ros2can/build/ros2_can/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/foxy/bin/ament_lint_cmake" "--xunit-file" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/lint_cmake.xunit.xml"\n'}
+[1.987395] (ros2_can) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[2.004007] (-) TimerEvent: {}
+[2.058979] (ros2_can) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/adm_bur7746m/ros2can':\n"}
+[2.059183] (ros2_can) StdoutLine: {'line': b'4:  - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/lint_cmake.xunit.xml\n'}
+[2.104108] (-) TimerEvent: {}
+[2.204394] (-) TimerEvent: {}
+[2.304722] (-) TimerEvent: {}
+[2.405027] (-) TimerEvent: {}
+[2.422720] (ros2_can) StdoutLine: {'line': b'4: CMakeLists.txt:32: Do not mix upper and lower case commands [readability/mixedcase]\n'}
+[2.423398] (ros2_can) StdoutLine: {'line': b'4: CMakeLists.txt:32: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.423543] (ros2_can) StdoutLine: {'line': b'4: CMakeLists.txt:47: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.423649] (ros2_can) StdoutLine: {'line': b'4: CMakeLists.txt:47: Line ends in whitespace [whitespace/eol]\n'}
+[2.423750] (ros2_can) StdoutLine: {'line': b'4: CMakeLists.txt:48: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.423849] (ros2_can) StdoutLine: {'line': b'4: CMakeLists.txt:48: Line ends in whitespace [whitespace/eol]\n'}
+[2.423948] (ros2_can) StdoutLine: {'line': b'4: CMakeLists.txt:49: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.424047] (ros2_can) StdoutLine: {'line': b'4: CMakeLists.txt:51: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.424145] (ros2_can) StdoutLine: {'line': b'4: CMakeLists.txt:51: Line ends in whitespace [whitespace/eol]\n'}
+[2.424242] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.424338] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]\n'}
+[2.424435] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]\n'}
+[2.424548] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]\n'}
+[2.424645] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CTestTestfile.cmake:7: Lines should be <= 80 characters long [linelength]\n'}
+[2.424741] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.424836] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.424932] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/cmake_install.cmake:42: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.425028] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/cmake_install.cmake:44: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.425143] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/cmake_install.cmake:45: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.425239] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/cmake_install.cmake:49: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.425334] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/cmake_install.cmake:51: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.425429] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/cmake_install.cmake:52: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.425523] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/cmake_install.cmake:53: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.425624] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/cmake_install.cmake:109: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.425719] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/cmake_install.cmake:126: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.425814] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/cmake_install.cmake:128: Weird indentation; use 2 spaces [whitespace/indent]\n'}
+[2.425909] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.426003] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.426099] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/Makefile.cmake:629: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.426194] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/Makefile.cmake:635: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.426289] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/Makefile.cmake:662: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.426384] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.426478] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/3.16.3/CMakeCCompiler.cmake:30: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.426575] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/3.16.3/CMakeCCompiler.cmake:31: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.426678] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.426770] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:32: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.426862] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:33: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.426964] (ros2_can) StdoutLine: {'line': b"4: build/ros2_can/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:48: Extra spaces between 'foreach' and its () [whitespace/extra]\n"}
+[2.427057] (ros2_can) StdoutLine: {'line': b"4: build/ros2_can/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:49: Extra spaces between 'if' and its () [whitespace/extra]\n"}
+[2.427150] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.427241] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/DependInfo.cmake:2: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.427334] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/DependInfo.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.427426] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.427529] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.427622] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.427712] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake:2: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.427805] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.427897] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake:12: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.427989] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake:19: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.428081] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake:24: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.428173] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.428264] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/uninstall.dir/DependInfo.cmake:2: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.428364] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/uninstall.dir/DependInfo.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.428481] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.428587] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.428679] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.428771] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.428864] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.428956] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/ament_cmake_core/package.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]\n'}
+[2.429048] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.429139] (ros2_can) StdoutLine: {'line': b'4: build/ros2_can/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 80 characters long [linelength]\n'}
+[2.429231] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.429322] (ros2_can) StdoutLine: {'line': b'4: \n'}
+[2.429413] (ros2_can) StdoutLine: {'line': b'4: 49 errors\n'}
+[2.433897] (ros2_can) StdoutLine: {'line': b'4: -- run_test.py: return code 1\n'}
+[2.434287] (ros2_can) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/lint_cmake.xunit.xml'\n"}
+[2.445982] (ros2_can) StdoutLine: {'line': b'4/6 Test #4: lint_cmake .......................***Failed    0.46 sec\n'}
+[2.446671] (ros2_can) StdoutLine: {'line': b'test 5\n'}
+[2.446905] (ros2_can) StdoutLine: {'line': b'    Start 5: uncrustify\n'}
+[2.447111] (ros2_can) StdoutLine: {'line': b'\n'}
+[2.447311] (ros2_can) StdoutLine: {'line': b'5: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/uncrustify.xunit.xml" "--package-name" "ros2_can" "--output-file" "/home/adm_bur7746m/ros2can/build/ros2_can/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/foxy/bin/ament_uncrustify" "--xunit-file" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/uncrustify.xunit.xml"\n'}
+[2.447520] (ros2_can) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[2.505139] (-) TimerEvent: {}
+[2.507548] (ros2_can) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/adm_bur7746m/ros2can':\n"}
+[2.507750] (ros2_can) StdoutLine: {'line': b'5:  - /opt/ros/foxy/bin/ament_uncrustify --xunit-file /home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/uncrustify.xunit.xml\n'}
+[2.605246] (-) TimerEvent: {}
+[2.705531] (-) TimerEvent: {}
+[2.805853] (-) TimerEvent: {}
+[2.906288] (-) TimerEvent: {}
+[2.946617] (ros2_can) StdoutLine: {'line': b"5: Code style divergence in file 'build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c':\n"}
+[2.948897] (ros2_can) StdoutLine: {'line': b'5: \n'}
+[2.951576] (ros2_can) StdoutLine: {'line': b'5: --- build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c\n'}
+[2.954372] (ros2_can) StdoutLine: {'line': b'5: +++ build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c.uncrustify\n'}
+[2.954499] (ros2_can) StdoutLine: {'line': b'5: @@ -26,3 +26,3 @@\n'}
+[2.954604] (ros2_can) StdoutLine: {'line': b'5: -  /* __INTEL_COMPILER = VRP */\n'}
+[2.954706] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)\n'}
+[2.954808] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)\n'}
+[2.954908] (ros2_can) StdoutLine: {'line': b'5: +/* __INTEL_COMPILER = VRP */\n'}
+[2.955022] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)\n'}
+[2.955127] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)\n'}
+[2.955233] (ros2_can) StdoutLine: {'line': b'5: @@ -32 +32 @@\n'}
+[2.955331] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)\n'}
+[2.955431] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)\n'}
+[2.955528] (ros2_can) StdoutLine: {'line': b'5: @@ -35 +35 @@\n'}
+[2.955625] (ros2_can) StdoutLine: {'line': b'5: -  /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */\n'}
+[2.955722] (ros2_can) StdoutLine: {'line': b'5: +/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */\n'}
+[2.955850] (ros2_can) StdoutLine: {'line': b'5: @@ -39 +39 @@\n'}
+[2.955964] (ros2_can) StdoutLine: {'line': b'5: -   /* _MSC_VER = VVRR */\n'}
+[2.956070] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_VER = VVRR */\n'}
+[2.956172] (ros2_can) StdoutLine: {'line': b'5: @@ -65,3 +65,3 @@\n'}
+[2.956268] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)\n'}
+[2.956365] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)\n'}
+[2.956491] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)\n'}
+[2.956596] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)\n'}
+[2.956692] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)\n'}
+[2.956789] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)\n'}
+[2.956884] (ros2_can) StdoutLine: {'line': b'5: @@ -71,2 +71,2 @@\n'}
+[2.956980] (ros2_can) StdoutLine: {'line': b'5: -  /* __BORLANDC__ = 0xVRR */\n'}
+[2.957076] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)\n'}
+[2.957239] (ros2_can) StdoutLine: {'line': b'5: +/* __BORLANDC__ = 0xVRR */\n'}
+[2.957374] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)\n'}
+[2.957473] (ros2_can) StdoutLine: {'line': b'5: @@ -77 +77 @@\n'}
+[2.957578] (ros2_can) StdoutLine: {'line': b'5: -   /* __WATCOMC__ = VVRR */\n'}
+[2.957672] (ros2_can) StdoutLine: {'line': b'5: +/* __WATCOMC__ = VVRR */\n'}
+[2.957765] (ros2_can) StdoutLine: {'line': b'5: @@ -86 +86 @@\n'}
+[2.957858] (ros2_can) StdoutLine: {'line': b'5: -   /* __WATCOMC__ = VVRP + 1100 */\n'}
+[2.957952] (ros2_can) StdoutLine: {'line': b'5: +/* __WATCOMC__ = VVRP + 1100 */\n'}
+[2.958044] (ros2_can) StdoutLine: {'line': b'5: @@ -96,4 +96,4 @@\n'}
+[2.958137] (ros2_can) StdoutLine: {'line': b'5: -   /* __SUNPRO_C = 0xVRRP */\n'}
+[2.958230] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>12)\n'}
+[2.958324] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xFF)\n'}
+[2.958417] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)\n'}
+[2.958511] (ros2_can) StdoutLine: {'line': b'5: +/* __SUNPRO_C = 0xVRRP */\n'}
+[2.958604] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 12)\n'}
+[2.958696] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xFF)\n'}
+[2.958790] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)\n'}
+[2.958883] (ros2_can) StdoutLine: {'line': b'5: @@ -101,4 +101,4 @@\n'}
+[2.958976] (ros2_can) StdoutLine: {'line': b'5: -   /* __SUNPRO_CC = 0xVRP */\n'}
+[2.959068] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C>>8)\n'}
+[2.959161] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C>>4 & 0xF)\n'}
+[2.959254] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C    & 0xF)\n'}
+[2.959348] (ros2_can) StdoutLine: {'line': b'5: +/* __SUNPRO_CC = 0xVRP */\n'}
+[2.959441] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_C >> 8)\n'}
+[2.959547] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_C >> 4 & 0xF)\n'}
+[2.959640] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_C & 0xF)\n'}
+[2.959733] (ros2_can) StdoutLine: {'line': b'5: @@ -109,4 +109,4 @@\n'}
+[2.959825] (ros2_can) StdoutLine: {'line': b'5: -  /* __HP_cc = VVRRPP */\n'}
+[2.959918] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__HP_cc/10000)\n'}
+[2.960011] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__HP_cc/100 % 100)\n'}
+[2.960104] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__HP_cc     % 100)\n'}
+[2.960196] (ros2_can) StdoutLine: {'line': b'5: +/* __HP_cc = VVRRPP */\n'}
+[2.960289] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__HP_cc / 10000)\n'}
+[2.960382] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__HP_cc / 100 % 100)\n'}
+[2.960515] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__HP_cc % 100)\n'}
+[2.960614] (ros2_can) StdoutLine: {'line': b'5: @@ -116,4 +116,4 @@\n'}
+[2.960707] (ros2_can) StdoutLine: {'line': b'5: -  /* __DECC_VER = VVRRTPPPP */\n'}
+[2.960800] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__DECC_VER/10000000)\n'}
+[2.960893] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__DECC_VER/100000  % 100)\n'}
+[2.960999] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__DECC_VER         % 10000)\n'}
+[2.961093] (ros2_can) StdoutLine: {'line': b'5: +/* __DECC_VER = VVRRTPPPP */\n'}
+[2.961186] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__DECC_VER / 10000000)\n'}
+[2.961288] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__DECC_VER / 100000 % 100)\n'}
+[2.961386] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__DECC_VER % 10000)\n'}
+[2.961488] (ros2_can) StdoutLine: {'line': b'5: @@ -123,4 +123,4 @@\n'}
+[2.961601] (ros2_can) StdoutLine: {'line': b'5: -  /* __IBMC__ = VRP */\n'}
+[2.961704] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)\n'}
+[2.961794] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)\n'}
+[2.961885] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)\n'}
+[2.961976] (ros2_can) StdoutLine: {'line': b'5: +/* __IBMC__ = VRP */\n'}
+[2.962066] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)\n'}
+[2.962155] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)\n'}
+[2.962253] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)\n'}
+[2.962353] (ros2_can) StdoutLine: {'line': b'5: @@ -138,4 +138,4 @@\n'}
+[2.962446] (ros2_can) StdoutLine: {'line': b'5: -  /* __IBMC__ = VRP */\n'}
+[2.962538] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)\n'}
+[2.962631] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)\n'}
+[2.962723] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)\n'}
+[2.962816] (ros2_can) StdoutLine: {'line': b'5: +/* __IBMC__ = VRP */\n'}
+[2.962909] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)\n'}
+[2.963001] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)\n'}
+[2.963093] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)\n'}
+[2.963185] (ros2_can) StdoutLine: {'line': b'5: @@ -145,4 +145,4 @@\n'}
+[2.963278] (ros2_can) StdoutLine: {'line': b'5: -  /* __IBMC__ = VRP */\n'}
+[2.963370] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__IBMC__/100)\n'}
+[2.963462] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__IBMC__/10 % 10)\n'}
+[2.963561] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__IBMC__    % 10)\n'}
+[2.963668] (ros2_can) StdoutLine: {'line': b'5: +/* __IBMC__ = VRP */\n'}
+[2.963789] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__IBMC__ / 100)\n'}
+[2.963972] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__IBMC__ / 10 % 10)\n'}
+[2.964095] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__IBMC__ % 10)\n'}
+[2.964257] (ros2_can) StdoutLine: {'line': b'5: @@ -165,4 +165,4 @@\n'}
+[2.964378] (ros2_can) StdoutLine: {'line': b'5: -  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */\n'}
+[2.964532] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)\n'}
+[2.964630] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)\n'}
+[2.964723] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)\n'}
+[2.964816] (ros2_can) StdoutLine: {'line': b'5: +/* __TI_COMPILER_VERSION__ = VVVRRRPPP */\n'}
+[2.964909] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)\n'}
+[2.965002] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)\n'}
+[2.965094] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)\n'}
+[2.965187] (ros2_can) StdoutLine: {'line': b'5: @@ -179 +179 @@\n'}
+[2.965279] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)\n'}
+[2.965372] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)\n'}
+[2.965465] (ros2_can) StdoutLine: {'line': b'5: @@ -194,4 +194,4 @@\n'}
+[2.965557] (ros2_can) StdoutLine: {'line': b'5: -  /* __ARMCC_VERSION = VRRPPPP */\n'}
+[2.965650] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)\n'}
+[2.965742] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)\n'}
+[2.965834] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)\n'}
+[2.965927] (ros2_can) StdoutLine: {'line': b'5: +/* __ARMCC_VERSION = VRRPPPP */\n'}
+[2.966020] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)\n'}
+[2.966113] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)\n'}
+[2.966206] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)\n'}
+[2.966301] (ros2_can) StdoutLine: {'line': b'5: @@ -199,4 +199,4 @@\n'}
+[2.966394] (ros2_can) StdoutLine: {'line': b'5: -  /* __ARMCC_VERSION = VRPPPP */\n'}
+[2.966487] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)\n'}
+[2.966580] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)\n'}
+[2.966673] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)\n'}
+[2.966767] (ros2_can) StdoutLine: {'line': b'5: +/* __ARMCC_VERSION = VRPPPP */\n'}
+[2.966859] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)\n'}
+[2.966952] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)\n'}
+[2.967046] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)\n'}
+[2.967138] (ros2_can) StdoutLine: {'line': b'5: @@ -215 +215 @@\n'}
+[2.967250] (ros2_can) StdoutLine: {'line': b'5: -   /* _MSC_VER = VVRR */\n'}
+[2.967362] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_VER = VVRR */\n'}
+[2.967454] (ros2_can) StdoutLine: {'line': b'5: @@ -223,3 +223,3 @@\n'}
+[2.967547] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)\n'}
+[2.967651] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)\n'}
+[2.967743] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)\n'}
+[2.967836] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)\n'}
+[2.967947] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)\n'}
+[2.968090] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)\n'}
+[2.968182] (ros2_can) StdoutLine: {'line': b'5: @@ -237 +237 @@\n'}
+[2.968272] (ros2_can) StdoutLine: {'line': b'5: -   /* _MSC_VER = VVRR */\n'}
+[2.968372] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_VER = VVRR */\n'}
+[2.968486] (ros2_can) StdoutLine: {'line': b'5: @@ -254 +254 @@\n'}
+[2.968593] (ros2_can) StdoutLine: {'line': b'5: -  /* _MSC_VER = VVRR */\n'}
+[2.968686] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_VER = VVRR */\n'}
+[2.968778] (ros2_can) StdoutLine: {'line': b'5: @@ -259 +259 @@\n'}
+[2.968871] (ros2_can) StdoutLine: {'line': b'5: -    /* _MSC_FULL_VER = VVRRPPPPP */\n'}
+[2.968977] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_FULL_VER = VVRRPPPPP */\n'}
+[2.969076] (ros2_can) StdoutLine: {'line': b'5: @@ -262 +262 @@\n'}
+[2.969170] (ros2_can) StdoutLine: {'line': b'5: -    /* _MSC_FULL_VER = VVRRPPPP */\n'}
+[2.969263] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_FULL_VER = VVRRPPPP */\n'}
+[2.969356] (ros2_can) StdoutLine: {'line': b'5: @@ -270 +270,2 @@\n'}
+[2.969449] (ros2_can) StdoutLine: {'line': b'5: -#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)\n'}
+[2.969542] (ros2_can) StdoutLine: {'line': b'5: +#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \\\n'}
+[2.969635] (ros2_can) StdoutLine: {'line': b'5: +  defined(__ADSP21000__)\n'}
+[2.969728] (ros2_can) StdoutLine: {'line': b'5: @@ -273,4 +274,4 @@\n'}
+[2.969820] (ros2_can) StdoutLine: {'line': b'5: -  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */\n'}
+[2.969913] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)\n'}
+[2.970007] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)\n'}
+[2.970099] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)\n'}
+[2.970192] (ros2_can) StdoutLine: {'line': b'5: +/* __VISUALDSPVERSION__ = 0xVVRRPP00 */\n'}
+[2.970285] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)\n'}
+[2.970377] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)\n'}
+[2.970470] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)\n'}
+[2.970563] (ros2_can) StdoutLine: {'line': b'5: @@ -286 +287,3 @@\n'}
+[2.970656] (ros2_can) StdoutLine: {'line': b'5: -# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__))\n'}
+[2.970752] (ros2_can) StdoutLine: {'line': b'5: +# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \\\n'}
+[2.970845] (ros2_can) StdoutLine: {'line': b'5: +  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \\\n'}
+[2.970939] (ros2_can) StdoutLine: {'line': b'5: +  defined(__ICC8051__))\n'}
+[2.971031] (ros2_can) StdoutLine: {'line': b'5: @@ -288 +291 @@\n'}
+[2.971124] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))\n'}
+[2.971218] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))\n'}
+[2.971311] (ros2_can) StdoutLine: {'line': b'5: @@ -300,4 +303,4 @@\n'}
+[2.971411] (ros2_can) StdoutLine: {'line': b'5: -  /* SDCC = VRP */\n'}
+[2.971504] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MAJOR DEC(SDCC/100)\n'}
+[2.971597] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MINOR DEC(SDCC/10 % 10)\n'}
+[2.971690] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_PATCH DEC(SDCC    % 10)\n'}
+[2.971782] (ros2_can) StdoutLine: {'line': b'5: +/* SDCC = VRP */\n'}
+[2.971883] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MAJOR DEC(SDCC / 100)\n'}
+[2.971974] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MINOR DEC(SDCC / 10 % 10)\n'}
+[2.972064] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_PATCH DEC(SDCC % 10)\n'}
+[2.972153] (ros2_can) StdoutLine: {'line': b'5: @@ -321 +324 @@\n'}
+[2.972243] (ros2_can) StdoutLine: {'line': b'5: -char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";\n'}
+[2.972345] (ros2_can) StdoutLine: {'line': b'5: +char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";\n'}
+[2.972447] (ros2_can) StdoutLine: {'line': b'5: @@ -323 +326 @@\n'}
+[2.972762] (ros2_can) StdoutLine: {'line': b'5: -char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";\n'}
+[2.973081] (ros2_can) StdoutLine: {'line': b'5: +char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";\n'}
+[2.973366] (ros2_can) StdoutLine: {'line': b'5: @@ -327 +330 @@\n'}
+[2.973458] (ros2_can) StdoutLine: {'line': b'5: -char const* qnxnto = "INFO" ":" "qnxnto[]";\n'}
+[2.973549] (ros2_can) StdoutLine: {'line': b'5: +char const * qnxnto = "INFO" ":" "qnxnto[]";\n'}
+[2.973640] (ros2_can) StdoutLine: {'line': b'5: @@ -331 +334 @@\n'}
+[2.973739] (ros2_can) StdoutLine: {'line': b'5: -char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";\n'}
+[2.973889] (ros2_can) StdoutLine: {'line': b'5: +char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";\n'}
+[2.974020] (ros2_can) StdoutLine: {'line': b'5: @@ -544,9 +547,9 @@\n'}
+[2.974113] (ros2_can) StdoutLine: {'line': b'5: -#define DEC(n)                   \\\n'}
+[2.974206] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 10000000)%10)), \\\n"}
+[2.974300] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 1000000)%10)),  \\\n"}
+[2.974401] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 100000)%10)),   \\\n"}
+[2.974497] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 10000)%10)),    \\\n"}
+[2.974592] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 1000)%10)),     \\\n"}
+[2.974688] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 100)%10)),      \\\n"}
+[2.974784] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 10)%10)),       \\\n"}
+[2.974879] (ros2_can) StdoutLine: {'line': b"5: -  ('0' +  ((n) % 10))\n"}
+[2.974975] (ros2_can) StdoutLine: {'line': b'5: +#define DEC(n) \\\n'}
+[2.975070] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 10000000) % 10)), \\\n"}
+[2.975166] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 1000000) % 10)), \\\n"}
+[2.975261] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 100000) % 10)), \\\n"}
+[2.975356] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 10000) % 10)), \\\n"}
+[2.975451] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 1000) % 10)), \\\n"}
+[2.975546] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 100) % 10)), \\\n"}
+[2.975641] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 10) % 10)), \\\n"}
+[2.975736] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) % 10))\n"}
+[2.975830] (ros2_can) StdoutLine: {'line': b'5: @@ -555,9 +558,9 @@\n'}
+[2.975925] (ros2_can) StdoutLine: {'line': b'5: -#define HEX(n)             \\\n'}
+[2.976020] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>28 & 0xF)), \\\n"}
+[2.976115] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>24 & 0xF)), \\\n"}
+[2.976210] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>20 & 0xF)), \\\n"}
+[2.976305] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>16 & 0xF)), \\\n"}
+[2.976412] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>12 & 0xF)), \\\n"}
+[2.976538] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>8  & 0xF)), \\\n"}
+[2.976641] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>4  & 0xF)), \\\n"}
+[2.976737] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)     & 0xF))\n"}
+[2.976833] (ros2_can) StdoutLine: {'line': b'5: +#define HEX(n) \\\n'}
+[2.976928] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 28 & 0xF)), \\\n"}
+[2.977024] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 24 & 0xF)), \\\n"}
+[2.977119] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 20 & 0xF)), \\\n"}
+[2.977214] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 16 & 0xF)), \\\n"}
+[2.977309] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 12 & 0xF)), \\\n"}
+[2.977404] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 8 & 0xF)), \\\n"}
+[2.977499] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 4 & 0xF)), \\\n"}
+[2.977594] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) & 0xF))\n"}
+[2.977689] (ros2_can) StdoutLine: {'line': b'5: @@ -569 +572 @@\n'}
+[2.977785] (ros2_can) StdoutLine: {'line': b"5: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n"}
+[2.977888] (ros2_can) StdoutLine: {'line': b"5: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',\n"}
+[2.977990] (ros2_can) StdoutLine: {'line': b'5: @@ -574 +577 @@\n'}
+[2.978080] (ros2_can) StdoutLine: {'line': b"5: -   '.', COMPILER_VERSION_PATCH,\n"}
+[2.978180] (ros2_can) StdoutLine: {'line': b"5: +  '.', COMPILER_VERSION_PATCH,\n"}
+[2.978270] (ros2_can) StdoutLine: {'line': b'5: @@ -576 +579 @@\n'}
+[2.978370] (ros2_can) StdoutLine: {'line': b"5: -    '.', COMPILER_VERSION_TWEAK,\n"}
+[2.978489] (ros2_can) StdoutLine: {'line': b"5: +  '.', COMPILER_VERSION_TWEAK,\n"}
+[2.978600] (ros2_can) StdoutLine: {'line': b'5: @@ -580 +583,2 @@\n'}
+[2.978690] (ros2_can) StdoutLine: {'line': b"5: -  ']','\\0'};\n"}
+[2.978780] (ros2_can) StdoutLine: {'line': b"5: +  ']', '\\0'\n"}
+[2.978870] (ros2_can) StdoutLine: {'line': b'5: +};\n'}
+[2.978960] (ros2_can) StdoutLine: {'line': b'5: @@ -587,3 +591,4 @@\n'}
+[2.979049] (ros2_can) StdoutLine: {'line': b"5: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',\n"}
+[2.979175] (ros2_can) StdoutLine: {'line': b"5: -  'i','n','t','e','r','n','a','l','[',\n"}
+[2.979296] (ros2_can) StdoutLine: {'line': b"5: -  COMPILER_VERSION_INTERNAL,']','\\0'};\n"}
+[2.979387] (ros2_can) StdoutLine: {'line': b"5: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',\n"}
+[2.979478] (ros2_can) StdoutLine: {'line': b"5: +  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',\n"}
+[2.979568] (ros2_can) StdoutLine: {'line': b"5: +  COMPILER_VERSION_INTERNAL, ']', '\\0'\n"}
+[2.979657] (ros2_can) StdoutLine: {'line': b'5: +};\n'}
+[2.979748] (ros2_can) StdoutLine: {'line': b'5: @@ -596 +601 @@\n'}
+[2.979838] (ros2_can) StdoutLine: {'line': b"5: -  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n"}
+[2.979928] (ros2_can) StdoutLine: {'line': b"5: +  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',\n"}
+[2.980018] (ros2_can) StdoutLine: {'line': b'5: @@ -601 +606 @@\n'}
+[2.980108] (ros2_can) StdoutLine: {'line': b"5: -   '.', SIMULATE_VERSION_PATCH,\n"}
+[2.980198] (ros2_can) StdoutLine: {'line': b"5: +  '.', SIMULATE_VERSION_PATCH,\n"}
+[2.980288] (ros2_can) StdoutLine: {'line': b'5: @@ -603 +608 @@\n'}
+[2.980378] (ros2_can) StdoutLine: {'line': b"5: -    '.', SIMULATE_VERSION_TWEAK,\n"}
+[2.980510] (ros2_can) StdoutLine: {'line': b"5: +  '.', SIMULATE_VERSION_TWEAK,\n"}
+[2.980606] (ros2_can) StdoutLine: {'line': b'5: @@ -607 +612,2 @@\n'}
+[2.980698] (ros2_can) StdoutLine: {'line': b"5: -  ']','\\0'};\n"}
+[2.980791] (ros2_can) StdoutLine: {'line': b"5: +  ']', '\\0'\n"}
+[2.980883] (ros2_can) StdoutLine: {'line': b'5: +};\n'}
+[2.980976] (ros2_can) StdoutLine: {'line': b'5: @@ -614,4 +620,2 @@\n'}
+[2.981069] (ros2_can) StdoutLine: {'line': b'5: -char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";\n'}
+[2.981169] (ros2_can) StdoutLine: {'line': b'5: -char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";\n'}
+[2.981262] (ros2_can) StdoutLine: {'line': b'5: -\n'}
+[2.981354] (ros2_can) StdoutLine: {'line': b'5: -\n'}
+[2.981446] (ros2_can) StdoutLine: {'line': b'5: +char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";\n'}
+[2.981539] (ros2_can) StdoutLine: {'line': b'5: +char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";\n'}
+[2.981632] (ros2_can) StdoutLine: {'line': b'5: @@ -634 +638 @@\n'}
+[2.981724] (ros2_can) StdoutLine: {'line': b'5: -const char* info_language_dialect_default =\n'}
+[2.981817] (ros2_can) StdoutLine: {'line': b'5: +const char * info_language_dialect_default =\n'}
+[2.981909] (ros2_can) StdoutLine: {'line': b'5: @@ -643 +647 @@\n'}
+[2.982001] (ros2_can) StdoutLine: {'line': b'5: -int main(argc, argv) int argc; char *argv[];\n'}
+[2.982093] (ros2_can) StdoutLine: {'line': b'5: +int main(argc, argv) int argc; char * argv[];\n'}
+[2.982185] (ros2_can) StdoutLine: {'line': b'5: @@ -645 +649 @@\n'}
+[2.982278] (ros2_can) StdoutLine: {'line': b'5: -int main(int argc, char* argv[])\n'}
+[2.982369] (ros2_can) StdoutLine: {'line': b'5: +int main(int argc, char * argv[])\n'}
+[2.982461] (ros2_can) StdoutLine: {'line': b'5: \n'}
+[2.982554] (ros2_can) StdoutLine: {'line': b"5: Code style divergence in file 'build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp':\n"}
+[2.982647] (ros2_can) StdoutLine: {'line': b'5: \n'}
+[2.982739] (ros2_can) StdoutLine: {'line': b'5: --- build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp\n'}
+[2.982832] (ros2_can) StdoutLine: {'line': b'5: +++ build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp.uncrustify\n'}
+[2.982925] (ros2_can) StdoutLine: {'line': b'5: @@ -14 +14 @@\n'}
+[2.983017] (ros2_can) StdoutLine: {'line': b'5: -  /* __COMO_VERSION__ = VRR */\n'}
+[2.983110] (ros2_can) StdoutLine: {'line': b'5: +/* __COMO_VERSION__ = VRR */\n'}
+[2.983202] (ros2_can) StdoutLine: {'line': b'5: @@ -26,3 +26,3 @@\n'}
+[2.983294] (ros2_can) StdoutLine: {'line': b'5: -  /* __INTEL_COMPILER = VRP */\n'}
+[2.983386] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER/100)\n'}
+[2.983478] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER/10 % 10)\n'}
+[2.983570] (ros2_can) StdoutLine: {'line': b'5: +/* __INTEL_COMPILER = VRP */\n'}
+[2.983663] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__INTEL_COMPILER / 100)\n'}
+[2.983755] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__INTEL_COMPILER / 10 % 10)\n'}
+[2.983848] (ros2_can) StdoutLine: {'line': b'5: @@ -32 +32 @@\n'}
+[2.983956] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER   % 10)\n'}
+[2.984046] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_PATCH DEC(__INTEL_COMPILER % 10)\n'}
+[2.984136] (ros2_can) StdoutLine: {'line': b'5: @@ -35 +35 @@\n'}
+[2.984227] (ros2_can) StdoutLine: {'line': b'5: -  /* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */\n'}
+[2.984316] (ros2_can) StdoutLine: {'line': b'5: +/* __INTEL_COMPILER_BUILD_DATE = YYYYMMDD */\n'}
+[2.984407] (ros2_can) StdoutLine: {'line': b'5: @@ -39 +39 @@\n'}
+[2.984543] (ros2_can) StdoutLine: {'line': b'5: -   /* _MSC_VER = VVRR */\n'}
+[2.984639] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_VER = VVRR */\n'}
+[2.984732] (ros2_can) StdoutLine: {'line': b'5: @@ -65,3 +65,3 @@\n'}
+[2.984837] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__>>24 & 0x00FF)\n'}
+[2.984948] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__>>16 & 0x00FF)\n'}
+[2.985104] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__     & 0xFFFF)\n'}
+[2.985282] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR HEX(__CODEGEARC_VERSION__ >> 24 & 0x00FF)\n'}
+[2.985393] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR HEX(__CODEGEARC_VERSION__ >> 16 & 0x00FF)\n'}
+[2.985495] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__CODEGEARC_VERSION__ & 0xFFFF)\n'}
+[2.985607] (ros2_can) StdoutLine: {'line': b'5: @@ -71,2 +71,2 @@\n'}
+[2.985700] (ros2_can) StdoutLine: {'line': b'5: -  /* __BORLANDC__ = 0xVRR */\n'}
+[2.985794] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__>>8)\n'}
+[2.985907] (ros2_can) StdoutLine: {'line': b'5: +/* __BORLANDC__ = 0xVRR */\n'}
+[2.986007] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR HEX(__BORLANDC__ >> 8)\n'}
+[2.986125] (ros2_can) StdoutLine: {'line': b'5: @@ -77 +77 @@\n'}
+[2.986301] (ros2_can) StdoutLine: {'line': b'5: -   /* __WATCOMC__ = VVRR */\n'}
+[2.986428] (ros2_can) StdoutLine: {'line': b'5: +/* __WATCOMC__ = VVRR */\n'}
+[2.986522] (ros2_can) StdoutLine: {'line': b'5: @@ -86 +86 @@\n'}
+[2.986615] (ros2_can) StdoutLine: {'line': b'5: -   /* __WATCOMC__ = VVRP + 1100 */\n'}
+[2.986708] (ros2_can) StdoutLine: {'line': b'5: +/* __WATCOMC__ = VVRP + 1100 */\n'}
+[2.986800] (ros2_can) StdoutLine: {'line': b'5: @@ -96,4 +96,4 @@\n'}
+[2.986893] (ros2_can) StdoutLine: {'line': b'5: -   /* __SUNPRO_CC = 0xVRRP */\n'}
+[2.986985] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>12)\n'}
+[2.987077] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xFF)\n'}
+[2.987169] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)\n'}
+[2.987261] (ros2_can) StdoutLine: {'line': b'5: +/* __SUNPRO_CC = 0xVRRP */\n'}
+[2.987353] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 12)\n'}
+[2.987446] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xFF)\n'}
+[2.987538] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)\n'}
+[2.987631] (ros2_can) StdoutLine: {'line': b'5: @@ -101,4 +101,4 @@\n'}
+[2.987723] (ros2_can) StdoutLine: {'line': b'5: -   /* __SUNPRO_CC = 0xVRP */\n'}
+[2.987815] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC>>8)\n'}
+[2.987919] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC>>4 & 0xF)\n'}
+[2.988012] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC    & 0xF)\n'}
+[2.988105] (ros2_can) StdoutLine: {'line': b'5: +/* __SUNPRO_CC = 0xVRP */\n'}
+[2.988197] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MAJOR HEX(__SUNPRO_CC >> 8)\n'}
+[2.988289] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MINOR HEX(__SUNPRO_CC >> 4 & 0xF)\n'}
+[2.988382] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_PATCH HEX(__SUNPRO_CC & 0xF)\n'}
+[2.988507] (ros2_can) StdoutLine: {'line': b'5: @@ -109,4 +109,4 @@\n'}
+[2.988603] (ros2_can) StdoutLine: {'line': b'5: -  /* __HP_aCC = VVRRPP */\n'}
+[2.988694] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__HP_aCC/10000)\n'}
+[2.988786] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__HP_aCC/100 % 100)\n'}
+[2.988879] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__HP_aCC     % 100)\n'}
+[2.988971] (ros2_can) StdoutLine: {'line': b'5: +/* __HP_aCC = VVRRPP */\n'}
+[2.989063] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__HP_aCC / 10000)\n'}
+[2.989155] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__HP_aCC / 100 % 100)\n'}
+[2.989247] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__HP_aCC % 100)\n'}
+[2.989340] (ros2_can) StdoutLine: {'line': b'5: @@ -116,4 +116,4 @@\n'}
+[2.989441] (ros2_can) StdoutLine: {'line': b'5: -  /* __DECCXX_VER = VVRRTPPPP */\n'}
+[2.989575] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER/10000000)\n'}
+[2.989704] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER/100000  % 100)\n'}
+[2.989807] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER         % 10000)\n'}
+[2.989900] (ros2_can) StdoutLine: {'line': b'5: +/* __DECCXX_VER = VVRRTPPPP */\n'}
+[2.989999] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER / 10000000)\n'}
+[2.990089] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER / 100000 % 100)\n'}
+[2.990180] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER % 10000)\n'}
+[2.990270] (ros2_can) StdoutLine: {'line': b'5: @@ -123,4 +123,4 @@\n'}
+[2.990360] (ros2_can) StdoutLine: {'line': b'5: -  /* __IBMCPP__ = VRP */\n'}
+[2.990460] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)\n'}
+[2.990636] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)\n'}
+[2.990733] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)\n'}
+[2.990826] (ros2_can) StdoutLine: {'line': b'5: +/* __IBMCPP__ = VRP */\n'}
+[2.990919] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)\n'}
+[2.991013] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)\n'}
+[2.991105] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)\n'}
+[2.991198] (ros2_can) StdoutLine: {'line': b'5: @@ -138,4 +138,4 @@\n'}
+[2.991308] (ros2_can) StdoutLine: {'line': b'5: -  /* __IBMCPP__ = VRP */\n'}
+[2.991427] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)\n'}
+[2.991521] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)\n'}
+[2.991615] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)\n'}
+[2.991707] (ros2_can) StdoutLine: {'line': b'5: +/* __IBMCPP__ = VRP */\n'}
+[2.991800] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)\n'}
+[2.991892] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)\n'}
+[2.991992] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)\n'}
+[2.992085] (ros2_can) StdoutLine: {'line': b'5: @@ -145,4 +145,4 @@\n'}
+[2.992177] (ros2_can) StdoutLine: {'line': b'5: -  /* __IBMCPP__ = VRP */\n'}
+[2.992270] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)\n'}
+[2.992362] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)\n'}
+[2.992475] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)\n'}
+[2.992583] (ros2_can) StdoutLine: {'line': b'5: +/* __IBMCPP__ = VRP */\n'}
+[2.992676] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__ / 100)\n'}
+[2.992768] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__IBMCPP__ / 10 % 10)\n'}
+[2.992861] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__IBMCPP__ % 10)\n'}
+[2.992953] (ros2_can) StdoutLine: {'line': b'5: @@ -165,4 +165,4 @@\n'}
+[2.993044] (ros2_can) StdoutLine: {'line': b'5: -  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */\n'}
+[2.993137] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)\n'}
+[2.993230] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)\n'}
+[2.993324] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)\n'}
+[2.993417] (ros2_can) StdoutLine: {'line': b'5: +/* __TI_COMPILER_VERSION__ = VVVRRRPPP */\n'}
+[2.993511] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__ / 1000000)\n'}
+[2.993604] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__ / 1000 % 1000)\n'}
+[2.993704] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__ % 1000)\n'}
+[2.993796] (ros2_can) StdoutLine: {'line': b'5: @@ -179 +179 @@\n'}
+[2.993889] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER      % 10)\n'}
+[2.993982] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH DEC(__GHS_VERSION_NUMBER % 10)\n'}
+[2.994075] (ros2_can) StdoutLine: {'line': b'5: @@ -188,4 +188,4 @@\n'}
+[2.994168] (ros2_can) StdoutLine: {'line': b'5: -  /* __ARMCC_VERSION = VRRPPPP */\n'}
+[2.994261] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/1000000)\n'}
+[2.994355] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 100)\n'}
+[2.994448] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION     % 10000)\n'}
+[2.994541] (ros2_can) StdoutLine: {'line': b'5: +/* __ARMCC_VERSION = VRRPPPP */\n'}
+[2.994634] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 1000000)\n'}
+[2.994726] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 100)\n'}
+[2.994819] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)\n'}
+[2.994912] (ros2_can) StdoutLine: {'line': b'5: @@ -193,4 +193,4 @@\n'}
+[2.995005] (ros2_can) StdoutLine: {'line': b'5: -  /* __ARMCC_VERSION = VRPPPP */\n'}
+[2.995097] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION/100000)\n'}
+[2.995190] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION/10000 % 10)\n'}
+[2.995282] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION    % 10000)\n'}
+[2.995375] (ros2_can) StdoutLine: {'line': b'5: +/* __ARMCC_VERSION = VRPPPP */\n'}
+[2.995478] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCC_VERSION / 100000)\n'}
+[2.995570] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MINOR DEC(__ARMCC_VERSION / 10000 % 10)\n'}
+[2.995663] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_PATCH DEC(__ARMCC_VERSION % 10000)\n'}
+[2.995755] (ros2_can) StdoutLine: {'line': b'5: @@ -209 +209 @@\n'}
+[2.995847] (ros2_can) StdoutLine: {'line': b'5: -   /* _MSC_VER = VVRR */\n'}
+[2.995947] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_VER = VVRR */\n'}
+[2.996037] (ros2_can) StdoutLine: {'line': b'5: @@ -217,3 +217,3 @@\n'}
+[2.996127] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION/1000000)\n'}
+[2.996217] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION/10000 % 100)\n'}
+[2.996307] (ros2_can) StdoutLine: {'line': b'5: -  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION     % 10000)\n'}
+[2.996397] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MAJOR DEC(__ARMCOMPILER_VERSION / 1000000)\n'}
+[2.996537] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_MINOR DEC(__ARMCOMPILER_VERSION / 10000 % 100)\n'}
+[2.996629] (ros2_can) StdoutLine: {'line': b'5: +  # define COMPILER_VERSION_PATCH DEC(__ARMCOMPILER_VERSION % 10000)\n'}
+[2.996719] (ros2_can) StdoutLine: {'line': b'5: @@ -231 +231 @@\n'}
+[2.996808] (ros2_can) StdoutLine: {'line': b'5: -   /* _MSC_VER = VVRR */\n'}
+[2.996898] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_VER = VVRR */\n'}
+[2.996988] (ros2_can) StdoutLine: {'line': b'5: @@ -252 +252 @@\n'}
+[2.997078] (ros2_can) StdoutLine: {'line': b'5: -  /* _MSC_VER = VVRR */\n'}
+[2.997167] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_VER = VVRR */\n'}
+[2.997257] (ros2_can) StdoutLine: {'line': b'5: @@ -257 +257 @@\n'}
+[2.997346] (ros2_can) StdoutLine: {'line': b'5: -    /* _MSC_FULL_VER = VVRRPPPPP */\n'}
+[2.997436] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_FULL_VER = VVRRPPPPP */\n'}
+[2.997531] (ros2_can) StdoutLine: {'line': b'5: @@ -260 +260 @@\n'}
+[2.997621] (ros2_can) StdoutLine: {'line': b'5: -    /* _MSC_FULL_VER = VVRRPPPP */\n'}
+[2.997710] (ros2_can) StdoutLine: {'line': b'5: +/* _MSC_FULL_VER = VVRRPPPP */\n'}
+[2.997800] (ros2_can) StdoutLine: {'line': b'5: @@ -268 +268,2 @@\n'}
+[2.997890] (ros2_can) StdoutLine: {'line': b'5: -#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || defined(__ADSP21000__)\n'}
+[2.997981] (ros2_can) StdoutLine: {'line': b'5: +#elif defined(__VISUALDSPVERSION__) || defined(__ADSPBLACKFIN__) || defined(__ADSPTS__) || \\\n'}
+[2.998071] (ros2_can) StdoutLine: {'line': b'5: +  defined(__ADSP21000__)\n'}
+[2.998160] (ros2_can) StdoutLine: {'line': b'5: @@ -271,4 +272,4 @@\n'}
+[2.998250] (ros2_can) StdoutLine: {'line': b'5: -  /* __VISUALDSPVERSION__ = 0xVVRRPP00 */\n'}
+[2.998340] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__>>24)\n'}
+[2.998436] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__>>16 & 0xFF)\n'}
+[2.998526] (ros2_can) StdoutLine: {'line': b'5: -# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__>>8  & 0xFF)\n'}
+[2.998616] (ros2_can) StdoutLine: {'line': b'5: +/* __VISUALDSPVERSION__ = 0xVVRRPP00 */\n'}
+[2.998734] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MAJOR HEX(__VISUALDSPVERSION__ >> 24)\n'}
+[2.998824] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_MINOR HEX(__VISUALDSPVERSION__ >> 16 & 0xFF)\n'}
+[2.998913] (ros2_can) StdoutLine: {'line': b'5: +# define COMPILER_VERSION_PATCH HEX(__VISUALDSPVERSION__ >> 8 & 0xFF)\n'}
+[2.999003] (ros2_can) StdoutLine: {'line': b'5: @@ -284 +285,3 @@\n'}
+[2.999093] (ros2_can) StdoutLine: {'line': b'5: -# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || defined(__ICC8051__))\n'}
+[2.999185] (ros2_can) StdoutLine: {'line': b'5: +# elif defined(__VER__) && (defined(__ICCAVR__) || defined(__ICCRX__) || defined(__ICCRH850__) || \\\n'}
+[2.999275] (ros2_can) StdoutLine: {'line': b'5: +  defined(__ICCRL78__) || defined(__ICC430__) || defined(__ICCRISCV__) || defined(__ICCV850__) || \\\n'}
+[2.999392] (ros2_can) StdoutLine: {'line': b'5: +  defined(__ICC8051__))\n'}
+[2.999482] (ros2_can) StdoutLine: {'line': b'5: @@ -286 +289 @@\n'}
+[2.999571] (ros2_can) StdoutLine: {'line': b'5: -#  define COMPILER_VERSION_MINOR DEC((__VER__) - (((__VER__) / 100)*100))\n'}
+[2.999662] (ros2_can) StdoutLine: {'line': b'5: +#  define COMPILER_VERSION_MINOR DEC((__VER__) -(((__VER__) / 100) * 100))\n'}
+[2.999752] (ros2_can) StdoutLine: {'line': b'5: @@ -306 +309 @@\n'}
+[2.999842] (ros2_can) StdoutLine: {'line': b'5: -char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";\n'}
+[2.999933] (ros2_can) StdoutLine: {'line': b'5: +char const * info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";\n'}
+[3.000023] (ros2_can) StdoutLine: {'line': b'5: @@ -308 +311 @@\n'}
+[3.000113] (ros2_can) StdoutLine: {'line': b'5: -char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";\n'}
+[3.000203] (ros2_can) StdoutLine: {'line': b'5: +char const * info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";\n'}
+[3.000293] (ros2_can) StdoutLine: {'line': b'5: @@ -312 +315 @@\n'}
+[3.000383] (ros2_can) StdoutLine: {'line': b'5: -char const* qnxnto = "INFO" ":" "qnxnto[]";\n'}
+[3.000501] (ros2_can) StdoutLine: {'line': b'5: +char const * qnxnto = "INFO" ":" "qnxnto[]";\n'}
+[3.000598] (ros2_can) StdoutLine: {'line': b'5: @@ -316 +319 @@\n'}
+[3.000690] (ros2_can) StdoutLine: {'line': b'5: -char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";\n'}
+[3.000790] (ros2_can) StdoutLine: {'line': b'5: +char const * info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";\n'}
+[3.000880] (ros2_can) StdoutLine: {'line': b'5: @@ -529,9 +532,9 @@\n'}
+[3.000970] (ros2_can) StdoutLine: {'line': b'5: -#define DEC(n)                   \\\n'}
+[3.001066] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 10000000)%10)), \\\n"}
+[3.001155] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 1000000)%10)),  \\\n"}
+[3.001245] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 100000)%10)),   \\\n"}
+[3.001335] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 10000)%10)),    \\\n"}
+[3.001424] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 1000)%10)),     \\\n"}
+[3.001514] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 100)%10)),      \\\n"}
+[3.001604] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + (((n) / 10)%10)),       \\\n"}
+[3.001693] (ros2_can) StdoutLine: {'line': b"5: -  ('0' +  ((n) % 10))\n"}
+[3.001792] (ros2_can) StdoutLine: {'line': b'5: +#define DEC(n) \\\n'}
+[3.001919] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 10000000) % 10)), \\\n"}
+[3.002020] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 1000000) % 10)), \\\n"}
+[3.002109] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 100000) % 10)), \\\n"}
+[3.002199] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 10000) % 10)), \\\n"}
+[3.002289] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 1000) % 10)), \\\n"}
+[3.002378] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 100) % 10)), \\\n"}
+[3.002499] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + (((n) / 10) % 10)), \\\n"}
+[3.002612] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) % 10))\n"}
+[3.002705] (ros2_can) StdoutLine: {'line': b'5: @@ -540,9 +543,9 @@\n'}
+[3.002797] (ros2_can) StdoutLine: {'line': b'5: -#define HEX(n)             \\\n'}
+[3.002890] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>28 & 0xF)), \\\n"}
+[3.002982] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>24 & 0xF)), \\\n"}
+[3.003074] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>20 & 0xF)), \\\n"}
+[3.003165] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>16 & 0xF)), \\\n"}
+[3.003258] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>12 & 0xF)), \\\n"}
+[3.003350] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>8  & 0xF)), \\\n"}
+[3.003454] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)>>4  & 0xF)), \\\n"}
+[3.003546] (ros2_can) StdoutLine: {'line': b"5: -  ('0' + ((n)     & 0xF))\n"}
+[3.003638] (ros2_can) StdoutLine: {'line': b'5: +#define HEX(n) \\\n'}
+[3.003731] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 28 & 0xF)), \\\n"}
+[3.003823] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 24 & 0xF)), \\\n"}
+[3.003915] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 20 & 0xF)), \\\n"}
+[3.004006] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 16 & 0xF)), \\\n"}
+[3.004098] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 12 & 0xF)), \\\n"}
+[3.004190] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 8 & 0xF)), \\\n"}
+[3.004282] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) >> 4 & 0xF)), \\\n"}
+[3.004373] (ros2_can) StdoutLine: {'line': b"5: +  ('0' + ((n) & 0xF))\n"}
+[3.004525] (ros2_can) StdoutLine: {'line': b'5: @@ -554 +557 @@\n'}
+[3.004632] (ros2_can) StdoutLine: {'line': b"5: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','[',\n"}
+[3.004727] (ros2_can) StdoutLine: {'line': b"5: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',\n"}
+[3.004820] (ros2_can) StdoutLine: {'line': b'5: @@ -559 +562 @@\n'}
+[3.004913] (ros2_can) StdoutLine: {'line': b"5: -   '.', COMPILER_VERSION_PATCH,\n"}
+[3.005005] (ros2_can) StdoutLine: {'line': b"5: +  '.', COMPILER_VERSION_PATCH,\n"}
+[3.005098] (ros2_can) StdoutLine: {'line': b'5: @@ -561 +564 @@\n'}
+[3.005190] (ros2_can) StdoutLine: {'line': b"5: -    '.', COMPILER_VERSION_TWEAK,\n"}
+[3.005283] (ros2_can) StdoutLine: {'line': b"5: +  '.', COMPILER_VERSION_TWEAK,\n"}
+[3.005375] (ros2_can) StdoutLine: {'line': b'5: @@ -565 +568 @@\n'}
+[3.005468] (ros2_can) StdoutLine: {'line': b"5: -  ']','\\0'};\n"}
+[3.005560] (ros2_can) StdoutLine: {'line': b"5: +  ']', '\\0'};\n"}
+[3.005659] (ros2_can) StdoutLine: {'line': b'5: @@ -572,3 +575,3 @@\n'}
+[3.005758] (ros2_can) StdoutLine: {'line': b"5: -  'c','o','m','p','i','l','e','r','_','v','e','r','s','i','o','n','_',\n"}
+[3.005851] (ros2_can) StdoutLine: {'line': b"5: -  'i','n','t','e','r','n','a','l','[',\n"}
+[3.005952] (ros2_can) StdoutLine: {'line': b"5: -  COMPILER_VERSION_INTERNAL,']','\\0'};\n"}
+[3.006043] (ros2_can) StdoutLine: {'line': b"5: +  'c', 'o', 'm', 'p', 'i', 'l', 'e', 'r', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '_',\n"}
+[3.006143] (ros2_can) StdoutLine: {'line': b"5: +  'i', 'n', 't', 'e', 'r', 'n', 'a', 'l', '[',\n"}
+[3.006243] (ros2_can) StdoutLine: {'line': b"5: +  COMPILER_VERSION_INTERNAL, ']', '\\0'};\n"}
+[3.006329] (-) TimerEvent: {}
+[3.006445] (ros2_can) StdoutLine: {'line': b'5: @@ -581 +584 @@\n'}
+[3.006566] (ros2_can) StdoutLine: {'line': b"5: -  's','i','m','u','l','a','t','e','_','v','e','r','s','i','o','n','[',\n"}
+[3.006658] (ros2_can) StdoutLine: {'line': b"5: +  's', 'i', 'm', 'u', 'l', 'a', 't', 'e', '_', 'v', 'e', 'r', 's', 'i', 'o', 'n', '[',\n"}
+[3.006748] (ros2_can) StdoutLine: {'line': b'5: @@ -586 +589 @@\n'}
+[3.006838] (ros2_can) StdoutLine: {'line': b"5: -   '.', SIMULATE_VERSION_PATCH,\n"}
+[3.006927] (ros2_can) StdoutLine: {'line': b"5: +  '.', SIMULATE_VERSION_PATCH,\n"}
+[3.007017] (ros2_can) StdoutLine: {'line': b'5: @@ -588 +591 @@\n'}
+[3.007107] (ros2_can) StdoutLine: {'line': b"5: -    '.', SIMULATE_VERSION_TWEAK,\n"}
+[3.007220] (ros2_can) StdoutLine: {'line': b"5: +  '.', SIMULATE_VERSION_TWEAK,\n"}
+[3.007324] (ros2_can) StdoutLine: {'line': b'5: @@ -592 +595 @@\n'}
+[3.007416] (ros2_can) StdoutLine: {'line': b"5: -  ']','\\0'};\n"}
+[3.007509] (ros2_can) StdoutLine: {'line': b"5: +  ']', '\\0'};\n"}
+[3.007601] (ros2_can) StdoutLine: {'line': b'5: @@ -599,4 +602,2 @@\n'}
+[3.007701] (ros2_can) StdoutLine: {'line': b'5: -char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";\n'}
+[3.007791] (ros2_can) StdoutLine: {'line': b'5: -char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";\n'}
+[3.007881] (ros2_can) StdoutLine: {'line': b'5: -\n'}
+[3.007971] (ros2_can) StdoutLine: {'line': b'5: -\n'}
+[3.008061] (ros2_can) StdoutLine: {'line': b'5: +char const * info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";\n'}
+[3.008151] (ros2_can) StdoutLine: {'line': b'5: +char const * info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";\n'}
+[3.008241] (ros2_can) StdoutLine: {'line': b'5: @@ -621 +622 @@\n'}
+[3.008331] (ros2_can) StdoutLine: {'line': b'5: -const char* info_language_dialect_default = "INFO" ":" "dialect_default["\n'}
+[3.008421] (ros2_can) StdoutLine: {'line': b'5: +const char * info_language_dialect_default = "INFO" ":" "dialect_default["\n'}
+[3.008555] (ros2_can) StdoutLine: {'line': b'5: @@ -633 +634 @@\n'}
+[3.008649] (ros2_can) StdoutLine: {'line': b'5: -"]";\n'}
+[3.008742] (ros2_can) StdoutLine: {'line': b'5: +  "]";\n'}
+[3.008835] (ros2_can) StdoutLine: {'line': b'5: @@ -637 +638 @@\n'}
+[3.008928] (ros2_can) StdoutLine: {'line': b'5: -int main(int argc, char* argv[])\n'}
+[3.009021] (ros2_can) StdoutLine: {'line': b'5: +int main(int argc, char * argv[])\n'}
+[3.009114] (ros2_can) StdoutLine: {'line': b'5: \n'}
+[3.009207] (ros2_can) StdoutLine: {'line': b"5: Code style divergence in file 'src/foxypcan.h':\n"}
+[3.009301] (ros2_can) StdoutLine: {'line': b'5: \n'}
+[3.009394] (ros2_can) StdoutLine: {'line': b'5: --- src/foxypcan.h\n'}
+[3.009486] (ros2_can) StdoutLine: {'line': b'5: +++ src/foxypcan.h.uncrustify\n'}
+[3.009579] (ros2_can) StdoutLine: {'line': b'5: @@ -5 +4,0 @@\n'}
+[3.009672] (ros2_can) StdoutLine: {'line': b'5: -\n'}
+[3.009765] (ros2_can) StdoutLine: {'line': b'5: @@ -35 +34 @@\n'}
+[3.009857] (ros2_can) StdoutLine: {'line': b'5: -#define PCAN_DEVICE\t PCAN_USBBUS1\n'}
+[3.009950] (ros2_can) StdoutLine: {'line': b'5: +#define PCAN_DEVICE      PCAN_USBBUS1\n'}
+[3.010044] (ros2_can) StdoutLine: {'line': b'5: @@ -38 +37 @@\n'}
+[3.010137] (ros2_can) StdoutLine: {'line': b'5: -#define PCAN_DEVICE\t\tPCAN_USBBUS1\n'}
+[3.010229] (ros2_can) StdoutLine: {'line': b'5: +#define PCAN_DEVICE             PCAN_USBBUS1\n'}
+[3.010330] (ros2_can) StdoutLine: {'line': b'5: \n'}
+[3.010423] (ros2_can) StdoutLine: {'line': b"5: Code style divergence in file 'src/teleop2pcan.cpp':\n"}
+[3.010515] (ros2_can) StdoutLine: {'line': b'5: \n'}
+[3.010607] (ros2_can) StdoutLine: {'line': b'5: --- src/teleop2pcan.cpp\n'}
+[3.010699] (ros2_can) StdoutLine: {'line': b'5: +++ src/teleop2pcan.cpp.uncrustify\n'}
+[3.010792] (ros2_can) StdoutLine: {'line': b'5: @@ -9,5 +9,5 @@\n'}
+[3.010884] (ros2_can) StdoutLine: {'line': b'5: -  public:\n'}
+[3.010976] (ros2_can) StdoutLine: {'line': b'5: -    TeleopPcanSubscriber()\n'}
+[3.011069] (ros2_can) StdoutLine: {'line': b'5: -    : Node("teleop_pcan_subscriber")\n'}
+[3.011161] (ros2_can) StdoutLine: {'line': b'5: -    {\n'}
+[3.011253] (ros2_can) StdoutLine: {'line': b'5: -      subscription_ = this->create_subscription<geometry_msgs::msg::Twist>(\n'}
+[3.011347] (ros2_can) StdoutLine: {'line': b'5: +public:\n'}
+[3.011439] (ros2_can) StdoutLine: {'line': b'5: +  TeleopPcanSubscriber()\n'}
+[3.011532] (ros2_can) StdoutLine: {'line': b'5: +  : Node("teleop_pcan_subscriber")\n'}
+[3.011625] (ros2_can) StdoutLine: {'line': b'5: +  {\n'}
+[3.011717] (ros2_can) StdoutLine: {'line': b'5: +    subscription_ = this->create_subscription<geometry_msgs::msg::Twist>(\n'}
+[3.011810] (ros2_can) StdoutLine: {'line': b'5: @@ -14,0 +15,9 @@\n'}
+[3.011902] (ros2_can) StdoutLine: {'line': b'5: +  }\n'}
+[3.012003] (ros2_can) StdoutLine: {'line': b'5: +\n'}
+[3.012093] (ros2_can) StdoutLine: {'line': b'5: +private:\n'}
+[3.012183] (ros2_can) StdoutLine: {'line': b'5: +  void topic_callback(const geometry_msgs::msg::Twist::SharedPtr msg) const\n'}
+[3.012273] (ros2_can) StdoutLine: {'line': b'5: +  {\n'}
+[3.012362] (ros2_can) StdoutLine: {'line': b'5: +    bool nFlagLenk = 0;\n'}
+[3.012492] (ros2_can) StdoutLine: {'line': b'5: +    bool nFlagAntrieb = 0;\n'}
+[3.012598] (ros2_can) StdoutLine: {'line': b'5: +    if ((float)msg->angular.z < 0.0) {\n'}
+[3.012688] (ros2_can) StdoutLine: {'line': b'5: +      nFlagLenk = 1;\n'}
+[3.012778] (ros2_can) StdoutLine: {'line': b'5: @@ -17,9 +26,21 @@\n'}
+[3.012868] (ros2_can) StdoutLine: {'line': b'5: -  private:\n'}
+[3.012957] (ros2_can) StdoutLine: {'line': b'5: - \n'}
+[3.013077] (ros2_can) StdoutLine: {'line': b'5: -  \n'}
+[3.013195] (ros2_can) StdoutLine: {'line': b'5: -    void topic_callback(const geometry_msgs::msg::Twist::SharedPtr msg) const\n'}
+[3.013285] (ros2_can) StdoutLine: {'line': b'5: -    {\n'}
+[3.013374] (ros2_can) StdoutLine: {'line': b'5: -\tbool nFlagLenk=0;\n'}
+[3.013464] (ros2_can) StdoutLine: {'line': b'5: -\tbool nFlagAntrieb=0;\n'}
+[3.013554] (ros2_can) StdoutLine: {'line': b'5: -    if (( float)msg->angular.z < 0.0){\n'}
+[3.013671] (ros2_can) StdoutLine: {'line': b'5: -   nFlagLenk=1;\n'}
+[3.013799] (ros2_can) StdoutLine: {'line': b'5: +    if ((float)msg->linear.x < 0.0) {\n'}
+[3.013891] (ros2_can) StdoutLine: {'line': b'5: +      nFlagAntrieb = 1;\n'}
+[3.013981] (ros2_can) StdoutLine: {'line': b'5: +    }\n'}
+[3.014070] (ros2_can) StdoutLine: {'line': b'5: +\n'}
+[3.014160] (ros2_can) StdoutLine: {'line': b'5: +    Message.ID = 0x77;\n'}
+[3.014249] (ros2_can) StdoutLine: {'line': b'5: +    Message.LEN = 8;\n'}
+[3.014339] (ros2_can) StdoutLine: {'line': b'5: +    Message.MSGTYPE = PCAN_MESSAGE_EXTENDED;\n'}
+[3.014430] (ros2_can) StdoutLine: {'line': b"5: +    memset(Message.DATA, '\\0', sizeof(Message.DATA));\n"}
+[3.014530] (ros2_can) StdoutLine: {'line': b'5: +\n'}
+[3.014622] (ros2_can) StdoutLine: {'line': b'5: +    Message.DATA[0] = std::abs(msg->angular.z);\n'}
+[3.014715] (ros2_can) StdoutLine: {'line': b'5: +    Message.DATA[1] = nFlagLenk;\n'}
+[3.014807] (ros2_can) StdoutLine: {'line': b'5: +    Message.DATA[2] = (int)std::round(std::abs(msg->linear.x));\n'}
+[3.014899] (ros2_can) StdoutLine: {'line': b'5: +    Message.DATA[3] = nFlagAntrieb;\n'}
+[3.014992] (ros2_can) StdoutLine: {'line': b'5: +    Message.DATA[4] = 0;\n'}
+[3.015090] (ros2_can) StdoutLine: {'line': b'5: +    Message.DATA[5] = 0;\n'}
+[3.015183] (ros2_can) StdoutLine: {'line': b'5: +    Message.DATA[6] = 0;\n'}
+[3.015281] (ros2_can) StdoutLine: {'line': b'5: +    Message.DATA[7] = 0;\n'}
+[3.015383] (ros2_can) StdoutLine: {'line': b'5: +    Status = CAN_Write(pcan_device, &Message);\n'}
+[3.015476] (ros2_can) StdoutLine: {'line': b'5: +\n'}
+[3.015568] (ros2_can) StdoutLine: {'line': b'5: +    RCLCPP_INFO(\n'}
+[3.015660] (ros2_can) StdoutLine: {'line': b'5: +      this->get_logger(), "I heard: %f %f %f", msg->linear.x, msg->linear.y, msg->angular.z);\n'}
+[3.015753] (ros2_can) StdoutLine: {'line': b'5: @@ -27,24 +48,2 @@\n'}
+[3.015845] (ros2_can) StdoutLine: {'line': b'5: -  \n'}
+[3.015938] (ros2_can) StdoutLine: {'line': b'5: -  if (( float)msg->linear.x < 0.0){\n'}
+[3.016031] (ros2_can) StdoutLine: {'line': b'5: -   nFlagAntrieb=1;\n'}
+[3.016123] (ros2_can) StdoutLine: {'line': b'5: -  }\n'}
+[3.016216] (ros2_can) StdoutLine: {'line': b'5: -  \n'}
+[3.016308] (ros2_can) StdoutLine: {'line': b'5: -    \tMessage.ID = 0x77;\n'}
+[3.016400] (ros2_can) StdoutLine: {'line': b'5: -\tMessage.LEN = 8;\n'}
+[3.016526] (ros2_can) StdoutLine: {'line': b'5: -\tMessage.MSGTYPE = PCAN_MESSAGE_EXTENDED;\n'}
+[3.016621] (ros2_can) StdoutLine: {'line': b"5: -\tmemset(Message.DATA, '\\0', sizeof(Message.DATA));\n"}
+[3.016714] (ros2_can) StdoutLine: {'line': b'5: -      \n'}
+[3.016807] (ros2_can) StdoutLine: {'line': b'5: -    \tMessage.DATA[0]=std::abs(msg->angular.z);\n'}
+[3.016900] (ros2_can) StdoutLine: {'line': b'5: -\tMessage.DATA[1]=nFlagLenk;\n'}
+[3.016993] (ros2_can) StdoutLine: {'line': b'5: -\tMessage.DATA[2]=(int)std::round(std::abs(msg->linear.x));\n'}
+[3.017085] (ros2_can) StdoutLine: {'line': b'5: -\tMessage.DATA[3]=nFlagAntrieb;\n'}
+[3.017178] (ros2_can) StdoutLine: {'line': b'5: -\tMessage.DATA[4]=0;\n'}
+[3.017270] (ros2_can) StdoutLine: {'line': b'5: -\tMessage.DATA[5]=0;\n'}
+[3.017362] (ros2_can) StdoutLine: {'line': b'5: -\tMessage.DATA[6]=0;\n'}
+[3.017454] (ros2_can) StdoutLine: {'line': b'5: -\tMessage.DATA[7]=0;\n'}
+[3.017546] (ros2_can) StdoutLine: {'line': b'5: -      Status = CAN_Write(pcan_device, &Message);\n'}
+[3.017639] (ros2_can) StdoutLine: {'line': b'5: -            \n'}
+[3.017731] (ros2_can) StdoutLine: {'line': b'5: -      RCLCPP_INFO(this->get_logger(), "I heard: %f %f %f",msg->linear.x,msg->linear.y,msg->angular.z);\n'}
+[3.017824] (ros2_can) StdoutLine: {'line': b'5: -    }\n'}
+[3.017917] (ros2_can) StdoutLine: {'line': b'5: -    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscription_;\n'}
+[3.018035] (ros2_can) StdoutLine: {'line': b'5: -   \n'}
+[3.018136] (ros2_can) StdoutLine: {'line': b'5: +  rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscription_;\n'}
+[3.018226] (ros2_can) StdoutLine: {'line': b'5: +\n'}
+[3.018315] (ros2_can) StdoutLine: {'line': b'5: @@ -56 +55 @@\n'}
+[3.018405] (ros2_can) StdoutLine: {'line': b'5: -  Status =  CAN_Initialize(pcan_device, PCAN_BAUD_500K, 0, 0, 0);\n'}
+[3.018495] (ros2_can) StdoutLine: {'line': b'5: +  Status = CAN_Initialize(pcan_device, PCAN_BAUD_500K, 0, 0, 0);\n'}
+[3.018586] (ros2_can) StdoutLine: {'line': b'5: @@ -60 +59 @@\n'}
+[3.018675] (ros2_can) StdoutLine: {'line': b'5: -  \n'}
+[3.018765] (ros2_can) StdoutLine: {'line': b'5: +\n'}
+[3.018855] (ros2_can) StdoutLine: {'line': b'5: \n'}
+[3.018944] (ros2_can) StdoutLine: {'line': b'5: 4 files with code style divergence\n'}
+[3.019034] (ros2_can) StdoutLine: {'line': b'5: -- run_test.py: return code 1\n'}
+[3.019124] (ros2_can) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/uncrustify.xunit.xml'\n"}
+[3.019215] (ros2_can) StdoutLine: {'line': b'5/6 Test #5: uncrustify .......................***Failed    0.53 sec\n'}
+[3.019306] (ros2_can) StdoutLine: {'line': b'test 6\n'}
+[3.019395] (ros2_can) StdoutLine: {'line': b'    Start 6: xmllint\n'}
+[3.019485] (ros2_can) StdoutLine: {'line': b'\n'}
+[3.019574] (ros2_can) StdoutLine: {'line': b'6: Test command: /usr/bin/python3 "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/xmllint.xunit.xml" "--package-name" "ros2_can" "--output-file" "/home/adm_bur7746m/ros2can/build/ros2_can/ament_xmllint/xmllint.txt" "--command" "/opt/ros/foxy/bin/ament_xmllint" "--xunit-file" "/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/xmllint.xunit.xml"\n'}
+[3.019677] (ros2_can) StdoutLine: {'line': b'6: Test timeout computed to be: 60\n'}
+[3.032981] (ros2_can) StdoutLine: {'line': b"6: -- run_test.py: invoking following command in '/home/adm_bur7746m/ros2can':\n"}
+[3.033206] (ros2_can) StdoutLine: {'line': b'6:  - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/xmllint.xunit.xml\n'}
+[3.106441] (-) TimerEvent: {}
+[3.206759] (-) TimerEvent: {}
+[3.307085] (-) TimerEvent: {}
+[3.407561] (-) TimerEvent: {}
+[3.508014] (-) TimerEvent: {}
+[3.608400] (-) TimerEvent: {}
+[3.708812] (-) TimerEvent: {}
+[3.809204] (-) TimerEvent: {}
+[3.909583] (-) TimerEvent: {}
+[4.009961] (-) TimerEvent: {}
+[4.110327] (-) TimerEvent: {}
+[4.210724] (-) TimerEvent: {}
+[4.311124] (-) TimerEvent: {}
+[4.411575] (-) TimerEvent: {}
+[4.511960] (-) TimerEvent: {}
+[4.583492] (ros2_can) StdoutLine: {'line': b"6: File 'package.xml' is valid\n"}
+[4.584018] (ros2_can) StdoutLine: {'line': b'6: \n'}
+[4.584654] (ros2_can) StdoutLine: {'line': b"6: File 'build/ros2_can/test_results/ros2_can/copyright.xunit.xml' is valid\n"}
+[4.584961] (ros2_can) StdoutLine: {'line': b'6: \n'}
+[4.585253] (ros2_can) StdoutLine: {'line': b"6: File 'build/ros2_can/test_results/ros2_can/cppcheck.xunit.xml' is valid\n"}
+[4.585546] (ros2_can) StdoutLine: {'line': b'6: \n'}
+[4.585831] (ros2_can) StdoutLine: {'line': b"6: File 'build/ros2_can/test_results/ros2_can/cpplint.xunit.xml' is valid\n"}
+[4.586119] (ros2_can) StdoutLine: {'line': b'6: \n'}
+[4.586383] (ros2_can) StdoutLine: {'line': b"6: File 'build/ros2_can/test_results/ros2_can/lint_cmake.xunit.xml' is valid\n"}
+[4.586642] (ros2_can) StdoutLine: {'line': b'6: \n'}
+[4.586894] (ros2_can) StdoutLine: {'line': b"6: File 'build/ros2_can/test_results/ros2_can/uncrustify.xunit.xml' is valid\n"}
+[4.587158] (ros2_can) StdoutLine: {'line': b'6: \n'}
+[4.587415] (ros2_can) StdoutLine: {'line': b"6: File 'build/ros2_can/test_results/ros2_can/xmllint.xunit.xml' is valid\n"}
+[4.587670] (ros2_can) StdoutLine: {'line': b'6: \n'}
+[4.587944] (ros2_can) StdoutLine: {'line': b"6: File 'install/ros2_can/share/ros2_can/package.xml' is valid\n"}
+[4.588196] (ros2_can) StdoutLine: {'line': b'6: \n'}
+[4.588467] (ros2_can) StdoutLine: {'line': b'6: No problems found\n'}
+[4.601218] (ros2_can) StdoutLine: {'line': b'6: -- run_test.py: return code 0\n'}
+[4.601808] (ros2_can) StdoutLine: {'line': b"6: -- run_test.py: verify result file '/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/xmllint.xunit.xml'\n"}
+[4.612108] (-) TimerEvent: {}
+[4.615054] (ros2_can) StdoutLine: {'line': b'6/6 Test #6: xmllint ..........................   Passed    1.64 sec\n'}
+[4.615638] (ros2_can) StdoutLine: {'line': b'\n'}
+[4.615911] (ros2_can) StdoutLine: {'line': b'33% tests passed\x1b[0;0m, \x1b[0;31m4 tests failed\x1b[0;0m out of 6\n'}
+[4.616274] (ros2_can) StdoutLine: {'line': b'\n'}
+[4.616487] (ros2_can) StdoutLine: {'line': b'Label Time Summary:\n'}
+[4.616691] (ros2_can) StdoutLine: {'line': b'copyright     =   0.49 sec*proc (1 test)\n'}
+[4.616877] (ros2_can) StdoutLine: {'line': b'cppcheck      =   0.68 sec*proc (1 test)\n'}
+[4.617061] (ros2_can) StdoutLine: {'line': b'cpplint       =   0.65 sec*proc (1 test)\n'}
+[4.617260] (ros2_can) StdoutLine: {'line': b'lint_cmake    =   0.46 sec*proc (1 test)\n'}
+[4.617446] (ros2_can) StdoutLine: {'line': b'linter        =   4.45 sec*proc (6 tests)\n'}
+[4.617628] (ros2_can) StdoutLine: {'line': b'uncrustify    =   0.53 sec*proc (1 test)\n'}
+[4.617809] (ros2_can) StdoutLine: {'line': b'xmllint       =   1.64 sec*proc (1 test)\n'}
+[4.617990] (ros2_can) StdoutLine: {'line': b'\n'}
+[4.618171] (ros2_can) StdoutLine: {'line': b'Total Test time (real) =   4.46 sec\n'}
+[4.618352] (ros2_can) StdoutLine: {'line': b'\n'}
+[4.618535] (ros2_can) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[4.618755] (ros2_can) StdoutLine: {'line': b'\t\x1b[0;31m  1 - copyright (Failed)\x1b[0;0m\n'}
+[4.618941] (ros2_can) StdoutLine: {'line': b'\t\x1b[0;31m  3 - cpplint (Failed)\x1b[0;0m\n'}
+[4.619123] (ros2_can) StdoutLine: {'line': b'\t\x1b[0;31m  4 - lint_cmake (Failed)\x1b[0;0m\n'}
+[4.619304] (ros2_can) StdoutLine: {'line': b'\t\x1b[0;31m  5 - uncrustify (Failed)\x1b[0;0m\n'}
+[4.637610] (ros2_can) StderrLine: {'line': b'Errors while running CTest\n'}
+[4.641612] (ros2_can) CommandEnded: {'returncode': 8}
+[4.642454] (ros2_can) TestFailure: {'identifier': 'ros2_can'}
+[4.642514] (ros2_can) JobEnded: {'identifier': 'ros2_can', 'rc': 0}
+[4.643836] (-) EventReactorShutdown: {}

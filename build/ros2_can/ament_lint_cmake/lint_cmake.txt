@@ -1,0 +1,71 @@
+-- run_test.py: invoking following command in '/home/adm_bur7746m/ros2can':
+ - /opt/ros/foxy/bin/ament_lint_cmake --xunit-file /home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/lint_cmake.xunit.xml
+
+CMakeLists.txt:32: Do not mix upper and lower case commands [readability/mixedcase]
+CMakeLists.txt:32: Mismatching spaces inside () after command [whitespace/mismatch]
+CMakeLists.txt:47: Weird indentation; use 2 spaces [whitespace/indent]
+CMakeLists.txt:47: Line ends in whitespace [whitespace/eol]
+CMakeLists.txt:48: Weird indentation; use 2 spaces [whitespace/indent]
+CMakeLists.txt:48: Line ends in whitespace [whitespace/eol]
+CMakeLists.txt:49: Weird indentation; use 2 spaces [whitespace/indent]
+CMakeLists.txt:51: Weird indentation; use 2 spaces [whitespace/indent]
+CMakeLists.txt:51: Line ends in whitespace [whitespace/eol]
+
+build/ros2_can/CTestTestfile.cmake:1: Line ends in whitespace [whitespace/eol]
+build/ros2_can/CTestTestfile.cmake:4: Line ends in whitespace [whitespace/eol]
+build/ros2_can/CTestTestfile.cmake:5: Line ends in whitespace [whitespace/eol]
+build/ros2_can/CTestTestfile.cmake:7: Lines should be <= 80 characters long [linelength]
+
+build/ros2_can/cmake_install.cmake:13: Weird indentation; use 2 spaces [whitespace/indent]
+build/ros2_can/cmake_install.cmake:42: Weird indentation; use 2 spaces [whitespace/indent]
+build/ros2_can/cmake_install.cmake:44: Weird indentation; use 2 spaces [whitespace/indent]
+build/ros2_can/cmake_install.cmake:45: Weird indentation; use 2 spaces [whitespace/indent]
+build/ros2_can/cmake_install.cmake:49: Weird indentation; use 2 spaces [whitespace/indent]
+build/ros2_can/cmake_install.cmake:51: Weird indentation; use 2 spaces [whitespace/indent]
+build/ros2_can/cmake_install.cmake:52: Weird indentation; use 2 spaces [whitespace/indent]
+build/ros2_can/cmake_install.cmake:53: Weird indentation; use 2 spaces [whitespace/indent]
+build/ros2_can/cmake_install.cmake:109: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/cmake_install.cmake:126: Weird indentation; use 2 spaces [whitespace/indent]
+build/ros2_can/cmake_install.cmake:128: Weird indentation; use 2 spaces [whitespace/indent]
+
+build/ros2_can/CMakeFiles/Makefile.cmake:8: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/Makefile.cmake:629: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/Makefile.cmake:635: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/Makefile.cmake:662: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ros2_can/CMakeFiles/3.16.3/CMakeCCompiler.cmake:30: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/3.16.3/CMakeCCompiler.cmake:31: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ros2_can/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:32: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:33: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:48: Extra spaces between 'foreach' and its () [whitespace/extra]
+build/ros2_can/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake:49: Extra spaces between 'if' and its () [whitespace/extra]
+
+build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/DependInfo.cmake:2: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/DependInfo.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/cmake_clean.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake:2: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake:6: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake:12: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake:19: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake:24: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ros2_can/CMakeFiles/uninstall.dir/DependInfo.cmake:2: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/CMakeFiles/uninstall.dir/DependInfo.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ros2_can/CMakeFiles/uninstall.dir/cmake_clean.cmake:3: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ros2_can/ament_cmake_core/package.cmake:7: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/ament_cmake_core/package.cmake:10: Mismatching spaces inside () after command [whitespace/mismatch]
+build/ros2_can/ament_cmake_core/package.cmake:11: Mismatching spaces inside () after command [whitespace/mismatch]
+
+build/ros2_can/ament_cmake_package_templates/templates.cmake:1: Lines should be <= 80 characters long [linelength]
+
+
+49 errors
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/adm_bur7746m/ros2can/build/ros2_can/test_results/ros2_can/lint_cmake.xunit.xml'

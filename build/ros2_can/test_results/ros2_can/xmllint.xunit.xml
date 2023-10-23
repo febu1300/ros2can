@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ros2_can.xmllint"
+  tests="8"
+  errors="0"
+  failures="0"
+  time="1.286"
+>
+  <testcase
+    name="package.xml"
+    classname="ros2_can.xmllint"/>
+  <testcase
+    name="build/ros2_can/test_results/ros2_can/copyright.xunit.xml"
+    classname="ros2_can.xmllint"/>
+  <testcase
+    name="build/ros2_can/test_results/ros2_can/cppcheck.xunit.xml"
+    classname="ros2_can.xmllint"/>
+  <testcase
+    name="build/ros2_can/test_results/ros2_can/cpplint.xunit.xml"
+    classname="ros2_can.xmllint"/>
+  <testcase
+    name="build/ros2_can/test_results/ros2_can/lint_cmake.xunit.xml"
+    classname="ros2_can.xmllint"/>
+  <testcase
+    name="build/ros2_can/test_results/ros2_can/uncrustify.xunit.xml"
+    classname="ros2_can.xmllint"/>
+  <testcase
+    name="build/ros2_can/test_results/ros2_can/xmllint.xunit.xml"
+    classname="ros2_can.xmllint"/>
+  <testcase
+    name="install/ros2_can/share/ros2_can/package.xml"
+    classname="ros2_can.xmllint"/>
+  <system-out>Checked files:
+* package.xml
+* build/ros2_can/test_results/ros2_can/copyright.xunit.xml
+* build/ros2_can/test_results/ros2_can/cppcheck.xunit.xml
+* build/ros2_can/test_results/ros2_can/cpplint.xunit.xml
+* build/ros2_can/test_results/ros2_can/lint_cmake.xunit.xml
+* build/ros2_can/test_results/ros2_can/uncrustify.xunit.xml
+* build/ros2_can/test_results/ros2_can/xmllint.xunit.xml
+* install/ros2_can/share/ros2_can/package.xml</system-out>
+</testsuite>

@@ -5,7 +5,7 @@
   <version>0.0.0</version>
   <description>ROS2 CAN interface </description>
   <maintainer email="febu1300@gmail.com">Buruk</maintainer>
-  <license>MIT</license>
+  <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

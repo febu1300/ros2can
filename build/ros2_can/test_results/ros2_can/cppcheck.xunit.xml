@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ros2_can.cppcheck"
+  tests="4"
+  errors="0"
+  failures="0"
+  time="0.222"
+  skipped="0"
+>
+  <testcase
+    name="build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c"
+    classname="ros2_can.cppcheck"/>
+  <testcase
+    name="build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+    classname="ros2_can.cppcheck"/>
+  <testcase
+    name="src/foxypcan.h"
+    classname="ros2_can.cppcheck"/>
+  <testcase
+    name="src/teleop2pcan.cpp"
+    classname="ros2_can.cppcheck"/>
+  <system-out>Checked files:
+* build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c
+* build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+* src/foxypcan.h
+* src/teleop2pcan.cpp</system-out>
+</testsuite>

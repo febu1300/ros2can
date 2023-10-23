@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ros2_can.copyright"
+  tests="29"
+  errors="0"
+  failures="29"
+  time="0.010"
+>
+  <testcase
+    name="CONTRIBUTING.md"
+    classname="ros2_can.copyright"
+  >
+      <failure message="file not found"/>
+  </testcase>
+  <testcase
+    name="LICENSE"
+    classname="ros2_can.copyright"
+  >
+      <failure message="file not found"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/3.16.3/CMakeCCompiler.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/3.16.3/CMakeSystem.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/CMakeDirectoryInformation.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/Makefile.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/DependInfo.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/cmake_clean.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/teleop2pcan.dir/cmake_clean.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/uninstall.dir/DependInfo.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CMakeFiles/uninstall.dir/cmake_clean.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CTestCustom.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/CTestTestfile.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/ament_cmake_core/package.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/ament_cmake_core/ros2_canConfig-version.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/ament_cmake_core/ros2_canConfig.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/ament_cmake_package_templates/templates.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="build/ros2_can/cmake_install.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/_local_setup_util_ps1.py"
+    classname="ros2_can.copyright"
+  >
+      <failure message="copyright=Dirk Thomas (2016-2019), license=&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="install/_local_setup_util_sh.py"
+    classname="ros2_can.copyright"
+  >
+      <failure message="copyright=Dirk Thomas (2016-2019), license=&lt;unknown&gt;"/>
+  </testcase>
+  <testcase
+    name="install/ros2_can/share/ros2_can/cmake/ros2_canConfig-version.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="install/ros2_can/share/ros2_can/cmake/ros2_canConfig.cmake"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="src/foxypcan.h"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <testcase
+    name="src/teleop2pcan.cpp"
+    classname="ros2_can.copyright"
+  >
+      <failure message="could not find copyright notice"/>
+  </testcase>
+  <system-out>Checked files:
+* CONTRIBUTING.md
+* LICENSE
+* build/ros2_can/CMakeFiles/3.16.3/CMakeCCompiler.cmake
+* build/ros2_can/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake
+* build/ros2_can/CMakeFiles/3.16.3/CMakeSystem.cmake
+* build/ros2_can/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c
+* build/ros2_can/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+* build/ros2_can/CMakeFiles/CMakeDirectoryInformation.cmake
+* build/ros2_can/CMakeFiles/Makefile.cmake
+* build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/DependInfo.cmake
+* build/ros2_can/CMakeFiles/ros2_can_uninstall.dir/cmake_clean.cmake
+* build/ros2_can/CMakeFiles/teleop2pcan.dir/DependInfo.cmake
+* build/ros2_can/CMakeFiles/teleop2pcan.dir/cmake_clean.cmake
+* build/ros2_can/CMakeFiles/uninstall.dir/DependInfo.cmake
+* build/ros2_can/CMakeFiles/uninstall.dir/cmake_clean.cmake
+* build/ros2_can/CTestCustom.cmake
+* build/ros2_can/CTestTestfile.cmake
+* build/ros2_can/ament_cmake_core/package.cmake
+* build/ros2_can/ament_cmake_core/ros2_canConfig-version.cmake
+* build/ros2_can/ament_cmake_core/ros2_canConfig.cmake
+* build/ros2_can/ament_cmake_package_templates/templates.cmake
+* build/ros2_can/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+* build/ros2_can/cmake_install.cmake
+* install/_local_setup_util_ps1.py
+* install/_local_setup_util_sh.py
+* install/ros2_can/share/ros2_can/cmake/ros2_canConfig-version.cmake
+* install/ros2_can/share/ros2_can/cmake/ros2_canConfig.cmake
+* src/foxypcan.h
+* src/teleop2pcan.cpp</system-out>
+</testsuite>
