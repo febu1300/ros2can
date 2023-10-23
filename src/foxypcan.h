@@ -37,7 +37,7 @@
 // PCAN-Basic device used to read on
 #define PCAN_DEVICE		PCAN_USBBUS1
 #endif
-#include <PCANBasic.h>
+#include "PCANBasic.h"
 unsigned int pcan_device = PCAN_DEVICE;
 TPCANMsg Message;
 TPCANStatus Status;
