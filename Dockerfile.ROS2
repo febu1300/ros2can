@@ -24,12 +24,15 @@ RUN apt-get update && apt-get install -q -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 #Install PCAN
-RUN wget --no-check-certificate https://www.peak-system.com/fileadmin/media/linux/files/peak-linux-driver-8.16.0.tar.gz
-RUN tar -xzf peak-linux-driver-8.16.0.tar.gz
-WORKDIR  peak-linux-driver-8.16.0
+#RUN wget --no-check-certificate https://www.peak-system.com/fileadmin/media/linux/files/peak-linux-driver-8.16.0.tar.gz
+#RUN tar -xzf peak-linux-driver-8.16.0.tar.gz
+#WORKDIR  peak-linux-driver-8.16.0
 
-RUN make NET=NO PCC=NO
+#RUN make NET=NO PCC=NO
 
+RUN  modprobe peak-usb
+RUN ip link set can0 up type can bitrate 250000
+RUN ip link set up can0
 
 
 
